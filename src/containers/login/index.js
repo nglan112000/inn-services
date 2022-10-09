@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-const FindInn = props => {
+const LoginContainer = ({navigation}) => {
   return (
     <View>
       <Text>Home</Text>
@@ -9,4 +9,4 @@ const FindInn = props => {
   );
 };
 
-export default FindInn;
+export default LoginContainer;
