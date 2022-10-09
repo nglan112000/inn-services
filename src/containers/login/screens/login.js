@@ -35,7 +35,11 @@ const ButtonLogin = props => {
 
 const Login = ({navigation}) => {
   const {handlers} = useHooks({navigation});
-  const {handleSetUser, handleFacebookLogin} = handlers;
+  const {
+    handleFacebookLogin,
+    setUserCredential,
+    redirectToAdditionalIfNotHaveUser,
+  } = handlers;
 
   async function onFacebookButtonPress() {
     try {
@@ -45,16 +49,14 @@ const Login = ({navigation}) => {
         throw 'Login fail';
       }
 
-      console.log('userCredential', userCredential);
-      handleSetUser(userCredential.user);
+      setUserCredential(userCredential);
+
       if (userCredential.additionalUserInfo.isNewUser) {
         navigation.navigate(navigationName.login.additionalUserInfo);
       } else {
-        navigation.navigate(navigationName.login.additionalUserInfo);
-        //navigation.navigate(navigationName.findInn.findInn);
+        redirectToAdditionalIfNotHaveUser(userCredential.user.uid);
+        navigation.navigate(navigationName.findInn.findInn);
       }
-
-      return userCredential;
     } catch (error) {
       Alert.alert(error);
     }
