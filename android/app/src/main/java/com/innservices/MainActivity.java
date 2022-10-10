@@ -1,4 +1,4 @@
-package com.inn-services;
+package com.innservices;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "inn-services";
+    return "innservices";
   }
 }
