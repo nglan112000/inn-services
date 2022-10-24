@@ -1,20 +1,33 @@
 import React from 'react';
-import {View} from 'react-native';
-import storage from '@react-native-firebase/storage';
-// import ImagePicker from '../../components/ImagPicker/image-picker';
-
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import firestore from '@react-native-firebase/firestore';
+import logistics from './logistics.json';
 export default function Test() {
-  const file = storage().ref('/aaaaaa/ztlqpjby.jpg');
-  const log = async () => {
-    console.log('ssssssssss', await file.getMetadata());
-
-    console.log('ssssssssss', await file.getDownloadURL());
+  const uploadDataToFirestore = () => {
+    console.log('Upload fire');
+    // logistics.forEach(element => {
+    //   firestore()
+    //     .collection('Logistics')
+    //     .add({
+    //       ...element,
+    //     });
+    // });
   };
-  log();
   return (
-    <View>
-      {/* <ConfirmCode /> */}
-      {/* <ImagePicker /> */}
+    <View style={styles.container}>
+      <TouchableOpacity onPress={uploadDataToFirestore}>
+        <Text>Upload</Text>
+      </TouchableOpacity>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'white',
+    flex: 1,
+  },
+  c4: {
+    backgroundColor: '#C4C4C4',
+  },
+});
