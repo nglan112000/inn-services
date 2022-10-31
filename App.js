@@ -6,13 +6,27 @@
  * @flow strict-local
  */
 
-import React, {useState} from 'react';
+import React from 'react';
 import type {Node} from 'react';
-import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
-
+import {SafeAreaView, Text, useColorScheme, View} from 'react-native';
+import {applyMiddleware, compose, createStore} from 'redux';
+import createSagaMiddleware from 'redux-saga';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {lightTheme} from './src/config/theme';
+import {Provider} from 'react-redux';
 
+import allReducers from './src/store/reducers';
+import Navigation from './src/navigation';
+import Test from './src/containers/test';
+
+const sagaMiddleware = createSagaMiddleware();
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(
+  allReducers,
+  composeEnhancers(applyMiddleware(sagaMiddleware)),
+);
+
+// const store = createStore(allReducers, applyMiddleware(sagaMiddleware));
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const backgroundStyle = {
@@ -21,12 +35,12 @@ const App: () => Node = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        backgroundColor={lightTheme.primary}
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-      />
-    </SafeAreaView>
+    <Provider store={store}>
+      <SafeAreaView style={backgroundStyle}>
+        {/* <Test /> */}
+        <Navigation />
+      </SafeAreaView>
+    </Provider>
   );
 };
 

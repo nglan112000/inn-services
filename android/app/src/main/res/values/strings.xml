@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">inn-services</string>
+    <string name="app_name">innservices</string>
+    <string name="facebook_app_id">1311997846204351</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951903608905",
+    "project_id": "innservices-1fc96",
+    "storage_bucket": "innservices-1fc96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951903608905:android:7ec5cb4b36afb48cd91f98",
+        "android_client_info": {
+          "package_name": "com.innservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951903608905-n56ogqng562scvhd9r33gd0oirto7ucm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR84Y2TS3d38P6_LUL4wwcdH8IweP1e38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951903608905-n56ogqng562scvhd9r33gd0oirto7ucm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
