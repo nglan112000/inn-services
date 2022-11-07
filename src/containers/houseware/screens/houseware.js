@@ -1,24 +1,30 @@
 import React from 'react';
 import {FlatList, View} from 'react-native';
-import ActionButton from 'react-native-action-button';
+import {
+  ActionButton,
+  ActionButtonItem,
+} from '../../../components/action-button/action-button';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import {styles} from './houseware.style';
 import {useHouseware} from '../hooks/useHouseware';
-import {CartItem} from '../components/cart-item';
+import CartItem from '../components/cart-item';
 import {ListEmptyComponent, FooterListComponent} from '../../../components';
 import {translate} from '../../../constants/translate';
 
 export const Houseware = ({navigation}) => {
   const {selectors, handlers} = useHouseware({navigation});
-  const {posts, isLoading} = selectors;
-  const {onGotoCreateHouseware, onGotoMyPost} = handlers;
+  const {housewares, loading} = selectors;
+  const {onGotoCreateHouseware, onGotoMyPost, onFetchHouseware} = handlers;
+
   return (
-    <View>
+    <View style={styles.container}>
       <FlatList
         style={styles.flatlist}
-        data={posts}
+        data={housewares}
         keyExtractor={(item, index) => index}
+        onEndReached={onFetchHouseware}
+        onEndReachedThreshold={0}
         renderItem={({item}) => (
           <CartItem
             {...item}
@@ -26,20 +32,18 @@ export const Houseware = ({navigation}) => {
             containerStyle={styles.itemStyle}
           />
         )}
-        ListEmptyComponent={ListEmptyComponent}
-        ListFooterComponent={<FooterListComponent isLoading={isLoading} />}
+        ListEmptyComponent={<ListEmptyComponent loading={loading} />}
+        ListFooterComponent={<FooterListComponent isLoading={loading} />}
       />
       <ActionButton buttonColor="rgba(231,76,60,1)">
-        <ActionButton.Item
-          title={translate.new}
-          onPress={onGotoCreateHouseware}>
+        <ActionButtonItem title={translate.new} onPress={onGotoCreateHouseware}>
           <Ionicons name="md-create" style={styles.actionButtonIcon} />
-        </ActionButton.Item>
-        <ActionButton.Item
+        </ActionButtonItem>
+        <ActionButtonItem
           title={translate.houseware.myHouseware}
           onPress={onGotoMyPost}>
           <Ionicons name="list" style={styles.actionButtonIcon} />
-        </ActionButton.Item>
+        </ActionButtonItem>
       </ActionButton>
     </View>
   );

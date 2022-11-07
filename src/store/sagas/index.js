@@ -4,6 +4,7 @@ import * as types from '../actions/types';
 import * as innSagas from './innSagas';
 import * as logisticSagas from './logisticSaga';
 import * as roommateSagas from './roommateSagas';
+import * as housewareSagas from './housewareSaga';
 
 export default function* rootSagas() {
   yield all([
@@ -17,5 +18,9 @@ export default function* rootSagas() {
     takeEvery(types.FETCH_MY_POST, roommateSagas.fetchMyPost),
     takeEvery(types.POST_UPDATE_STATUS, roommateSagas.activedPost),
     takeEvery(types.ROOMMATE_CREATE_POST, roommateSagas.watchCreatePost),
+    // ...housewareSaga,
   ]);
+  // for (let housewareSaga of housewareSagas) {
+  //   housewareSaga();
+  // }
 }
