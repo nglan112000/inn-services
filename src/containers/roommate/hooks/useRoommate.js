@@ -1,16 +1,20 @@
 import {useCallback, useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {navigationName} from '../../../constants/navigation';
-import {fetchRoommate} from '../../../store/actions/roommateAction';
-import {POST_UPDATE_STATUS} from '../../../store/actions/types';
-import {selectIsLoading, selectRoommates} from '../selectors';
+import {
+  changeRoommateActive,
+  fetchRoommate,
+} from '../../../store/actions/roommateAction';
+import {selectFetchRoommateStatus, selectRoommates} from '../selectors';
 import {selectUserInfo} from '../../login/selectors';
+import {status} from '../../../constants/constants';
 
 const useHook = ({navigation}) => {
   const [isShowFilter, setIsShowFilter] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState();
   const dispatch = useDispatch();
-  const isLoading = useSelector(selectIsLoading);
+  const {status: fetchRoommateStatus} = useSelector(selectFetchRoommateStatus);
   const roommates = useSelector(selectRoommates);
   const userInfo = useSelector(selectUserInfo);
 
@@ -25,12 +29,13 @@ const useHook = ({navigation}) => {
   const filterCallBack = useCallback(
     value => {
       setIsShowFilter(false);
+      setFilter(value);
       handleFetchRoommate({
         reload: true,
+        ...value,
         cityId: value.city?.Id,
         districtId: value.district?.Id,
       });
-      setFilter(value);
     },
     [handleFetchRoommate],
   );
@@ -44,45 +49,60 @@ const useHook = ({navigation}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const onLoadmore = useCallback(() => {
-    handleFetchRoommate({
-      cityId: filter?.city?.Id,
-      districtId: filter?.district?.Id,
-    });
-  }, [handleFetchRoommate, filter]);
+  useEffect(() => {
+    if (fetchRoommateStatus === status.PENDING) {
+      setLoading(true);
+    } else {
+      setLoading(false);
+    }
+  }, [fetchRoommateStatus]);
 
   const handleFoundRoommate = useCallback(
-    id => {
-      dispatch({type: POST_UPDATE_STATUS, payload: id});
+    (id, isActive) => {
+      dispatch(changeRoommateActive({id, isActive}));
     },
     [dispatch],
   );
 
   const handleFetchRoommate = useCallback(
     (props = {reload: false}) => {
-      if (isLoading && !props.reload) {
-        return;
-      }
-
-      dispatch(fetchRoommate(props));
+      dispatch(
+        fetchRoommate({
+          cityId: filter?.city?.Id,
+          districtId: filter?.district?.Id,
+          gender: filter?.gender,
+          job: filter?.job,
+          ...props,
+        }),
+      );
     },
-    [isLoading, dispatch],
+    [dispatch, filter],
+  );
+
+  const onGotoUpdateRoommate = useCallback(
+    data => {
+      console.log('data: ', data);
+      navigation.navigate(navigationName.roommate.post, {
+        data,
+      });
+    },
+    [navigation],
   );
 
   return {
     handlers: {
       onFilterButtonPress,
-      onLoadmore,
       onOpenPost,
       onGetPosted,
       filterCallBack,
       handleFetchRoommate,
       handleFoundRoommate,
+      onGotoUpdateRoommate,
     },
     selectors: {
       roommates,
       userInfo,
-      isLoading,
+      loading,
       isShowFilter,
       filter,
     },
