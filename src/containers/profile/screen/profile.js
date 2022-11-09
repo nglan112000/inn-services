@@ -20,7 +20,7 @@ const CTextInput = ({...props}) => {
 
 const Profile = ({navigation, route}) => {
   const {selectors, handlers} = useHooks({navigation, route});
-  const {isMe, user, editable, updateValue, validation} = selectors;
+  const {isMe, user, editable, updateValue, validation, loading} = selectors;
   const {
     onOpenEdit,
     onCancel,
@@ -48,12 +48,14 @@ const Profile = ({navigation, route}) => {
             containerStyle={styles.buttonStyle}
             title="Lưu"
             onPress={updateProfile}
+            loading={loading}
           />
           <Button
             containerStyle={styles.buttonStyle}
             buttonStyle={styles.buttonSecondaryColor}
             title="Hủy"
             onPress={onCancel}
+            disabled={loading}
           />
         </View>
       );
@@ -116,6 +118,7 @@ const Profile = ({navigation, route}) => {
           value={updateValue.email}
           title={translate.email}
           type="outline"
+          onChangeText={value => onUpdateProfile(value, 'email')}
         />
         <RNText style={styles.birthdayText}>{translate.birthday}</RNText>
         <DatePicker
@@ -128,6 +131,7 @@ const Profile = ({navigation, route}) => {
             dateText: styles.dateText,
           }}
           style={styles.dateTouchBody}
+          onDateChange={date => onUpdateProfile(date, 'phoneNumber')}
         />
         <BasePicker
           containerStyle={styles.marginTop}

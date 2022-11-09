@@ -13,7 +13,7 @@ export const selectUserCredetial = createSelector(selectUserState, state =>
 );
 
 export const selectUid = createSelector(selectUserState, state =>
-  get('userCredential.uid', state),
+  get('userInfo.uid', state),
 );
 
 export const selectConfirm = createSelector(selectLoginState, state =>
@@ -22,4 +22,8 @@ export const selectConfirm = createSelector(selectLoginState, state =>
 
 export const selectRole = createSelector(selectUserState, state =>
   get('userInfo.role', state),
+);
+
+export const selectUpdateStatus = createSelector(selectUserState, state =>
+  get('updateStatus', state),
 );
