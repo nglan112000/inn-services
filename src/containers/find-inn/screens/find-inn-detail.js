@@ -4,7 +4,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 import {ImageView, Text} from '../../../components/index';
 import Image from '../../../components/image/image';
-import {dial, numeralPrice} from '../../../utils/utils';
+import {dial, formatString, numeralPrice} from '../../../utils/utils';
 import {navigationName} from '../../../constants/navigation';
 import {activeOpacity} from '../../../components/shared';
 import styles from './find-inn-detail.style';
@@ -26,16 +26,13 @@ const FindInnDetail = ({route, navigation}) => {
     if (!inn.created_by) {
       return;
     }
-    navigation.navigate(navigationName.home.chat, {
-      screen: navigationName.chat.chatDetail,
-      params: {
-        name: inn.created_by.displayName,
-        photoUrl: inn.created_by.photoURL,
-        destUser: {
-          id: inn.created_by.uid,
-          displayName: inn.created_by.displayName,
-          photoURL: inn.created_by.photoURL,
-        },
+    navigation.navigate(navigationName.findInn.chat, {
+      name: inn.created_by.displayName,
+      photoUrl: inn.created_by.photoURL,
+      destUser: {
+        id: inn.created_by.uid,
+        displayName: inn.created_by.displayName,
+        photoURL: inn.created_by.photoURL,
       },
     });
   };

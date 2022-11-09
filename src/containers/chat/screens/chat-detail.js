@@ -25,8 +25,8 @@ const ChatDetail = ({navigation, route}) => {
       for (const msg of messages) {
         if (msg.users.find(item => item === route.params.destUser.id)) {
           tempMessageId = msg.id;
+          break;
         }
-        break;
       }
       setMessageId(tempMessageId);
     }
@@ -45,13 +45,13 @@ const ChatDetail = ({navigation, route}) => {
     if (!text) {
       return;
     }
+    setText(null);
     await handleSendMessage({
       text,
       messageId: messageId,
       destUser: route.params.destUser,
       setMessageId,
     });
-    setText(null);
     flatListScrollToEnd();
   };
 

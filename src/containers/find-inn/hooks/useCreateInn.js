@@ -2,7 +2,11 @@ import {useCallback, useState, useRef, useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import numeral from 'numeral';
 
-import {createInn, deleteInn} from '../../../store/actions/innAction';
+import {
+  createInn,
+  deleteInn,
+  resetCreateInnStatus,
+} from '../../../store/actions/innAction';
 import {
   formatString,
   getCity,
@@ -14,6 +18,7 @@ import {selectCreateInnStatus, selectDeleteInnStatus} from '../selectors';
 import {selectUserInfo} from '../../login/selectors';
 import {uploadImagesToFirebase} from '../../../service/firebaseService';
 import {status} from '../../../constants/constants';
+import {navigationName} from '../../../constants/navigation';
 
 export const useCreateInn = ({data = {}, navigation}) => {
   const dispatch = useDispatch();
@@ -133,7 +138,15 @@ export const useCreateInn = ({data = {}, navigation}) => {
     if (!inn.innName) {
       errors.push('name');
     }
-    if (!inn.innDistrict) {
+    if (inn.innDistrict) {
+      const city = getCity(inn.innCity);
+      const district = city.Districts?.find(
+        item => item.Id === inn.innDistrict,
+      );
+      if (!district) {
+        errors.push('district');
+      }
+    } else {
       errors.push('district');
     }
     if (!inn.innAddress) {
@@ -184,10 +197,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
   );
 
   const onCreateInn = async () => {
-    const result = await handleCreateInn();
-    if (result) {
-      navigation.goBack();
-    }
+    await handleCreateInn();
   };
 
   const onChangeName = useCallback(
@@ -381,14 +391,6 @@ export const useCreateInn = ({data = {}, navigation}) => {
     [hanleChangeInn],
   );
 
-  const uploadImage = async () => {
-    try {
-      return await uploadImagesToFirebase(inn.images.map(image => image.uri));
-    } catch (error) {
-      throw new Error('ERR_UPLOAD_IMAGE');
-    }
-  };
-
   const handleCreateInn = async () => {
     let check = false;
     try {
@@ -396,8 +398,6 @@ export const useCreateInn = ({data = {}, navigation}) => {
         throw new Error('ERR_VALIDATE_DATA');
       }
       const city = getCity(inn.innCity);
-      const upload_room_images = await uploadImage();
-
       const district = city.Districts?.find(
         item => item.Id === inn.innDistrict,
       );
@@ -437,7 +437,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
         room_refrigerator: inn.roomRefrigerator,
         air_conditioner: inn.roomAirConditioner,
         room_washing_machine: inn.roomWashingMachine,
-        upload_room_images,
+        upload_room_images: inn.images.map(image => image.uri),
         coordinate: inn.coordinate,
       };
       dispatch(createInn(payload));
@@ -474,7 +474,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
       setShowDeleteConfirmModal(false);
       dispatch(deleteInn(data.uid));
     } finally {
-      navigation.goBack();
+      navigation.goBack(navigationName.findInn.myInn);
     }
   }, [dispatch, data, navigation]);
 
@@ -484,7 +484,13 @@ export const useCreateInn = ({data = {}, navigation}) => {
     } else {
       setLoading(false);
     }
-  }, [createInnStatus]);
+    if (createInnStatus === status.SUCCESS || createInnStatus === status.FAIL) {
+      dispatch(resetCreateInnStatus());
+    }
+    if (createInnStatus === status.SUCCESS) {
+      navigation.goBack(navigationName.findInn.findInn);
+    }
+  }, [createInnStatus, dispatch, navigation]);
 
   useEffect(() => {
     if (deleteInnStatus === status.PENDING) {
