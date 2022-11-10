@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
   },
   flatlist: {
     paddingHorizontal: space3,
+    paddingTop: space3,
   },
   actionButtonIcon: {
     fontSize: 20,
@@ -45,5 +46,29 @@ export const styles = StyleSheet.create({
   filter: {
     elevation: 500,
     margin: 6,
+  },
+  searchContainer: {
+    backgroundColor: 'white',
+    padding: 6,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    elevation: 1,
+  },
+  searchContainerStyle: {
+    flex: 1,
+    marginRight: 10,
+    paddingVertical: 0,
+    padding: 0,
+  },
+  searchTextInputStyle: {
+    marginVertical: 0,
+    fontSize: 14,
+    padding: 0,
+  },
+  searchButton: {
+    borderColor: lightTheme.primary,
+    borderRadius: 4,
+    borderWidth: 1,
+    padding: 2,
   },
 });

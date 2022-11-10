@@ -88,7 +88,7 @@ export function fetchDataFromAlgolia({
     filters.push(`type = ${type}`);
   }
   if (garage) {
-    filters.push(`parking_situation:${kitchen}`);
+    filters.push(`parking_situation:${garage}`);
   }
   if (city) {
     facetFilter.push(`full_address_object.city.code:${city}`);
@@ -99,7 +99,7 @@ export function fetchDataFromAlgolia({
   const filter = filters.join(' AND ');
 
   if (typeOfItem === 'map') {
-    return clientIndex.search(searchText, {
+    return clientIndex.search('', {
       cacheable: true,
       filters: filter,
       facets: '*',
