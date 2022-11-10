@@ -46,6 +46,7 @@ export const useReviewHook = reviewId => {
         setRate(data);
       }
     } catch (error) {
+      console.log(error);
       showMessageFail('Không lấy được dữ liệu đánh giá');
     }
   };

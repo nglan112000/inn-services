@@ -15,6 +15,7 @@ function* getSettingTask({payload}) {
       yield put(setSetting(result.setting));
     }
   } catch (error) {
+    console.log(error);
     showMessageFail('Không lấy được setting');
   }
 }
@@ -28,6 +29,7 @@ function* saveSettingTask({payload}) {
     yield call(saveObject, payload.uid, payload.value);
     yield put(setSetting(payload));
   } catch (error) {
+    console.log(error);
     showMessageFail('Không lấy được setting');
   }
 }

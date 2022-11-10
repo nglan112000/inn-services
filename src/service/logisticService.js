@@ -17,6 +17,7 @@ export function fetchDataFromFirebase({limit = 10, cityId, districtId, last}) {
 
     return query.limit(limit).get();
   } catch (error) {
+    console.log(error);
     showMessageFail('Lỗi lấy dữ liệu');
   }
 }

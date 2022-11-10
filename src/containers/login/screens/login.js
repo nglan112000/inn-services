@@ -58,6 +58,7 @@ const Login = ({navigation}) => {
         redirectToAdditionalIfNotHaveUser(userCredential.user.uid);
       }
     } catch (error) {
+      console.log(error);
       showMessageFail(error);
     }
   }

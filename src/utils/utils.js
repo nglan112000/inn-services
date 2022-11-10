@@ -23,6 +23,7 @@ export const uploadImageIntoFirebase = async image => {
   try {
     await reference.putFile(image);
   } catch (error) {
+    console.log(error);
     showMessageFail('Lỗi upload hình ảnh');
   }
   return reference;
@@ -63,6 +64,7 @@ export const sendMail = async (subject, body) => {
       ${subject ? '&subject=' + subject : ''}${body ? '&body=' + body : ''}`,
     );
   } catch (error) {
+    console.log(error);
     showMessageInfo(
       'Không thể mở ứng dụng Mail! Vui lòng liên hệ về địa chỉ email sau:\n17520784@gm.uit.edu.vn',
     );

@@ -50,25 +50,27 @@ function* fetchInnTask({type, payload}) {
       return;
     }
     let data = null;
-    if (
-      payload.searchText ||
-      payload.minArea ||
-      payload.maxArea ||
-      payload.typeOfItem === 'map' ||
-      !!payload.type
-    ) {
+    // if (
+    //   payload.searchText ||
+    //   payload.minArea ||
+    //   payload.maxArea ||
+    //   payload.typeOfItem === 'map' ||
+    //   !!payload.type
+    // ) {
       const aaa = yield call(fetchDataFromAlgolia, {...payload, count});
+      console.log(aaa);
       data = aaa.hits;
-    } else {
-      const result = yield call(fetchDataFromFirebase, {...payload, last});
-      if (result.docs.length) {
-        yield put(setLast(result.docs[result.docs.length - 1]));
-      }
-      data = result.docs.map(item => ({
-        uid: item.id,
-        ...item.data(),
-      }));
-    }
+      console.log({data});
+    // } else {
+    //   const result = yield call(fetchDataFromFirebase, {...payload, last});
+    //   if (result.docs.length) {
+    //     yield put(setLast(result.docs[result.docs.length - 1]));
+    //   }
+    //   data = result.docs.map(item => ({
+    //     uid: item.id,
+    //     ...item.data(),
+    //   }));
+    // }
     yield put(fetchInnSuccess(data));
     if (data.length < payload.limit) {
       yield put(setEnd(true));
@@ -140,6 +142,7 @@ function* createInnTask({payload}) {
       }
       showMessageSuccess('Cập nhật thông tin phòng thành công');
     } catch (error) {
+      console.log(error);
       put(createInnFail('Lỗi cập nhật thông tin phòng.'));
       showMessageFail('Lỗi cập nhật được thông tin phòng.');
     }
@@ -150,6 +153,7 @@ function* createInnTask({payload}) {
       yield put(createInnSuccess({...payload, uid: result.id}));
       showMessageSuccess('Tạo thông tin phòng thành công');
     } catch (error) {
+      console.log(error);
       yield put(createInnFail('Lỗi tạo thông tin phòng.'));
       showMessageFail('Lỗi tạo thông tin phòng.');
     }

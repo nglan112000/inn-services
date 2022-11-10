@@ -36,6 +36,7 @@ const useHooks = ({navigation}) => {
       const confirmation = await auth().signInWithPhoneNumber(phoneNumber);
       setConfirm(confirmation);
     } catch (error) {
+      console.log(error);
       throw error;
     }
   };
@@ -76,7 +77,9 @@ const useHooks = ({navigation}) => {
 
   const confirmCode = async code => {
     try {
+      console.log('confirm code')
       const pUserCredential = await confirm.confirm(code);
+      console.log(pUserCredential)
       if (!pUserCredential) {
         throw 'Confirm code fail';
       }
@@ -94,6 +97,7 @@ const useHooks = ({navigation}) => {
 
   const redirectToAdditionalIfNotHaveUser = userId => {
     const reference = database().ref('/users/' + userId);
+    console.log(reference)
     reference.once('value').then(data => {
       const user = data.toJSON();
       if (user) {

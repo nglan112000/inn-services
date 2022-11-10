@@ -77,6 +77,7 @@ function* uploadImage(image) {
     }
     return (yield uploadImagesToFirebase([image]))[0];
   } catch (error) {
+    console.log(error);
     throw new Error('ERR_UPLOAD_IMAGE');
   }
 }

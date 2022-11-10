@@ -84,6 +84,7 @@ export const ModalComment = memo(({visible, id, onClose = () => {}}) => {
         }
       }
     } catch (error) {
+      console.log(error);
       showMessageFail('Không thể bình luận lúc này');
     }
   };

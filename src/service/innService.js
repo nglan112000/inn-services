@@ -98,25 +98,25 @@ export function fetchDataFromAlgolia({
   }
   const filter = filters.join(' AND ');
 
-  if (typeOfItem === 'map') {
+  // if (typeOfItem === 'map') {
     return clientIndex.search('', {
       cacheable: true,
-      filters: filter,
+      // filters: filter,
       facets: '*',
-      facetFilters: facetFilter,
-      aroundLatLng: `${location.latitude},${location.longitude}`,
-      aroundRadius: maxRadius,
+      // facetFilters: facetFilter,
+      // aroundLatLng: `${location.latitude},${location.longitude}`,
+      // aroundRadius: maxRadius,
     });
-  } else {
-    return clientIndex.search(searchText, {
-      hitsPerPage: limit,
-      cacheable: true,
-      page: Math.ceil(count / limit),
-      filters: filter,
-      facets: '*',
-      facetFilters: facetFilter,
-    });
-  }
+  // } else {
+  //   return clientIndex.search(searchText, {
+  //     hitsPerPage: limit,
+  //     cacheable: true,
+  //     page: Math.ceil(count / limit),
+  //     filters: filter,
+  //     facets: '*',
+  //     facetFilters: facetFilter,
+  //   });
+  // }
 }
 
 export function createInnInFirebase({isUpdate, ...data}) {

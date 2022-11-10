@@ -62,6 +62,7 @@ export const SettingModal = ({visible, onClose}) => {
       showMessageInfo('Cài đặt sẽ được áp dụng vào lần mở áp tiếp theo');
       onClose();
     } catch (error) {
+      console.log(error);
       showMessageFail('Lưu cài đặt bị lỗi');
     }
   }, [city, district, uid, onClose, dispatch]);

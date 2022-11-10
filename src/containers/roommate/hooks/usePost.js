@@ -31,6 +31,7 @@ const usePostHook = ({data = {}, navigation}) => {
         parseInt(userInfo.birthday.substring(6))
       );
     } catch (error) {
+      console.log(error);
       return 22;
     }
   }, [userInfo]);

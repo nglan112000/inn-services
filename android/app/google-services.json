@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "951903608905",
+    "firebase_url": "https://innservices-1fc96-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "innservices-1fc96",
     "storage_bucket": "innservices-1fc96.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "951903608905-f2tickgf16lvlu9r219cb194r731d3mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innservices",
+            "certificate_hash": "b38d56e4e2165f1b19b3e495be239fe76f804d89"
+          }
+        },
         {
           "client_id": "951903608905-n56ogqng562scvhd9r33gd0oirto7ucm.apps.googleusercontent.com",
           "client_type": 3
