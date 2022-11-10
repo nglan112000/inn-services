@@ -21,6 +21,14 @@ export const AirConditionerIcon = () => (
   <MaterialCommunityIcons name="air-conditioner" size={32} color="#00BBF7" />
 );
 
+export const ReportIcon = ({size = 32}) => (
+  <MaterialCommunityIcons
+    name="comment-alert-outline"
+    size={size}
+    color="#EB4036"
+  />
+);
+
 export const BathroomIcon = () => (
   <MaterialIcons name="bathtub" size={32} color="#2BAEBE" />
 );
@@ -47,6 +55,10 @@ export const BedRoomIcon = () => (
 
 export const TiviIcon = () => (
   <MaterialCommunityIcons name="television-classic" size={32} color="#E4AE25" />
+);
+
+export const EditProfileIcon = () => (
+  <MaterialCommunityIcons name="account-edit" size={32} color="#1DA1C0" />
 );
 
 export const WindowIcon = () => (
