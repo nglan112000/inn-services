@@ -6,6 +6,7 @@ import innReducer from './innReducer';
 import logisticReducer from './logisticReducer';
 import roommateReducer from './roommateReducer';
 import {housewareReducer} from './housewareReducer';
+import {globalReducer} from './globalReducer';
 
 const allReducers = combineReducers({
   userReducer,
@@ -14,6 +15,7 @@ const allReducers = combineReducers({
   logisticReducer,
   roommateReducer,
   housewareReducer,
+  globalReducer,
 });
 
 export default allReducers;
