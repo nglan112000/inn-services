@@ -53,6 +53,17 @@ const styles = StyleSheet.create({
     marginTop: 4,
     marginBottom: 16,
   },
+  contactWithUs: {
+    marginVertical: 20,
+    fontSize: 16,
+  },
+  center: {
+    textAlignVertical: 'center',
+  },
+  uneditable: {
+    backgroundColor: '#f2f2f2',
+    color: lightTheme.grayC4,
+  },
 });
 
 export default styles;
