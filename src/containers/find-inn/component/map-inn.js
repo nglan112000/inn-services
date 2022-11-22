@@ -141,8 +141,8 @@ const MapInn = ({
         ref={mapRef}
         style={styles.mapView}
         initialRegion={{
-          latitude: 10.821473,
-          longitude: 106.62865,
+          latitude: 16.052049,
+          longitude: 108.213942,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}

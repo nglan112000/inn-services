@@ -25,7 +25,7 @@ export const useCreateHouseware = ({navigation, data = {}}) => {
     owner: data.owner ?? userInfo,
     items: data.items ?? [],
     content: data.content ?? '',
-    city: data.city ?? '79',
+    city: data.city ?? '48',
     district: data.district ?? '762',
     isActive: data.isActive ?? true,
   });

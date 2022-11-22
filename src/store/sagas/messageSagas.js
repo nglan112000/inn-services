@@ -1,5 +1,5 @@
 import {put} from 'redux-saga/effects';
-import {SET_CHANGE_MESSAGES} from '../actions/types';
+import { setChangeMessage } from '../actions/messageAction';
 
 export function* watchMessage({type, payload}) {
   const data = payload.map(item => {
@@ -10,5 +10,5 @@ export function* watchMessage({type, payload}) {
       },
     };
   });
-  yield put({type: SET_CHANGE_MESSAGES, payload: data});
+  yield put(setChangeMessage(data));
 }

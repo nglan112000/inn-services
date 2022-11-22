@@ -1,0 +1,4096 @@
+[
+    {
+      "uid": "60cc39a5d4f97e1508cf24e4",
+      "room_name": "Phòng cho thuê Hoàng Cầu Mới, Quận Đống Đa",
+      "available_status": 1,
+      "room_price": 4000000,
+      "exact_room_address": "Ngõ 39 Hoàng Cầu Mới, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "electric_price": 1600,
+      "water_price": 50000,
+      "room_area": 30,
+      "deposit": 3,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "6",
+          "text": "Quận Đống Đa",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0929604013",
+      "notes": "Căn 01 tầng riêng biệt 30m2 nhà ở khép kín 1PK + 1PN liền kề 1 Bếp + 1 Vệ sinh + 1 sân 10m2 thoáng mát. \n(Có ĐIỀU HOÀ và Bình nóng lạnh, đầy đủ tủ bếp, giường, ghế sofa)\n\nTiện ích: Cách đường chính 50m, ngõ rộng ô tô vào được tận cửa, an ninh tốt. Gần: Trường mẫu giáo, trường cấp 123 và ĐH, gần bệnh viện, chợ và khu thương mại.\n\nGiá: 4.000k/tháng (điện tính giá NN, nước 50k/người) CÓ THƯƠNG LƯỢNG TỐT\n\n☎️ Liên hệ: 0929 604 013",
+      "room_bed": true,
+      "room_closet": false,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": false,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7563.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7565.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7562.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761024_IMG_7561.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7566.JPG"
+      ],
+      "coordinate": {
+        "latitude": 21.0156084,
+        "longitude": 105.818528
+      },
+      "_geoloc": {
+        "lat": 21.0156084,
+        "lng": 105.818528
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60cc39a5d4f97e1508cf24e4",
+      "_snippetResult": {
+        "uid": {
+          "value": "60cc39a5d4f97e1508cf24e4",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Hoàng Cầu Mới, Quận Đống Đa",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "4000000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Ngõ 39 Hoàng Cầu Mới, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "1600",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "50000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "30",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "3",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "6",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Đống Đa",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0929604013",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Căn 01 tầng riêng biệt 30m2 nhà ở khép kín 1PK + 1PN liền kề 1 Bếp + 1 Vệ sinh + 1 …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7563.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7565.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7562.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761024_IMG_7561.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7566.JPG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0156084",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.818528",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0156084",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.818528",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60cc39a5d4f97e1508cf24e4",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Hoàng Cầu Mới, Quận Đống Đa",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "4000000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Ngõ 39 Hoàng Cầu Mới, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "1600",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "50000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "30",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "3",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "6",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Đống Đa",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0929604013",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Căn 01 tầng riêng biệt 30m2 nhà ở khép kín 1PK + 1PN liền kề 1 Bếp + 1 Vệ sinh + 1 sân 10m2 thoáng mát. \n(Có ĐIỀU HOÀ và Bình nóng lạnh, đầy đủ tủ bếp, giường, ghế sofa)\n\nTiện ích: Cách đường chính 50m, ngõ rộng ô tô vào được tận cửa, an ninh tốt. Gần: Trường mẫu giáo, trường cấp 123 và ĐH, gần bệnh viện, chợ và khu thương mại.\n\nGiá: 4.000k/tháng (điện tính giá NN, nước 50k/người) CÓ THƯƠNG LƯỢNG TỐT\n\n☎️ Liên hệ: 0929 604 013",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7563.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7565.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7562.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761024_IMG_7561.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623996761028_IMG_7566.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0156084",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.818528",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0156084",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.818528",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 64,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60cc32e6d4f97e1508cf23e9",
+      "room_name": "Phòng cho thuê Khuất Duy Tiến, Quận Thanh Xuân",
+      "available_status": 1,
+      "room_price": 3000000,
+      "exact_room_address": "Số 86 ngõ 126 Khuất Duy Tiến Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",
+      "electric_price": 3500,
+      "water_price": 80000,
+      "room_area": 20,
+      "deposit": 3000000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "9",
+          "text": "Quận Thanh Xuân",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0989636032",
+      "notes": "Môi trường sống sạch, khu phố an ninh",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014373_IMG_5245.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014375_IMG_5233.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1786.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1712.HEIC",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623995051508_IMG_5825.JPG"
+      ],
+      "coordinate": {
+        "latitude": 20.998085,
+        "longitude": 105.8010693
+      },
+      "_geoloc": {
+        "lat": 20.998085,
+        "lng": 105.8010693
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60cc32e6d4f97e1508cf23e9",
+      "_snippetResult": {
+        "uid": {
+          "value": "60cc32e6d4f97e1508cf23e9",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Khuất Duy Tiến, Quận Thanh Xuân",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "3000000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Số 86 ngõ 126 Khuất Duy Tiến Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "80000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "20",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "3000000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "9",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Thanh Xuân",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0989636032",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Môi trường sống sạch, khu phố an ninh",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014373_IMG_5245.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014375_IMG_5233.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1786.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1712.HEIC",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995051508_IMG_5825.JPG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.998085",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.8010693",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.998085",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.8010693",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60cc32e6d4f97e1508cf23e9",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Khuất Duy Tiến, Quận Thanh Xuân",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "3000000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Số 86 ngõ 126 Khuất Duy Tiến Khuất Duy Tiến, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "80000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "20",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "3000000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "9",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Thanh Xuân",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0989636032",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Môi trường sống sạch, khu phố an ninh",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014373_IMG_5245.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995014375_IMG_5233.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1786.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995030698_IMG_1712.HEIC",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623995051508_IMG_5825.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.998085",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.8010693",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.998085",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.8010693",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 63,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60cb8c1ed4f97e1508cf10ce",
+      "room_name": "Căn hộ Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Quận Nam Từ Liêm",
+      "available_status": 1,
+      "room_price": 13500000,
+      "exact_room_address": "Mỹ Đình Pearl Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Xã Mỹ Đình, Quận Nam Từ Liêm, Hà Nội",
+      "electric_price": 1500,
+      "water_price": 20000,
+      "room_area": 110,
+      "deposit": 1350000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "19",
+          "text": "Quận Nam Từ Liêm",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0989339944",
+      "notes": "CHO THUÊ NHÀ\n\nDì mình chuyển về quê sinh sống, nên cần cho thuê chung cư ở Mỹ Đình pearl, Mặt đường đại lộ Thăng Long, cạnh chân cầu vượt Châu Văn Liêm. Dưới chân tòa nhà có đủ dịch vụ tập gym, spa, bể bơi, siêu thị, vị trí thuận tiện đi lại.\n\nNhà mới 84m2, 2 ngủ, 2 vs, 1 khách và bếp. Đồ đạc mới 100% 2 điều hòa, máy giặt, 2 giường, tủ quần áo, bàn ghế, tủ bếp, tivi... Cho thuê lâu dài\n\nGiá thuê 13,5tr/ tháng. Có fix nhẹ cho ng thiện chí.\nLh: 0989339944\nAce có bạn bè cần thuê chung cư giới thiệu m nhé!\nToà này người HQ thuê nhiều ạ. ",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": true,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623952164244_IMG_20210616_193355.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623952183802_IMG_20210616_193353.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623952200510_IMG_20210616_193404.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623952256804_IMG_20210616_193355.jpg"
+      ],
+      "coordinate": {
+        "latitude": 21.0063912,
+        "longitude": 105.7696179
+      },
+      "_geoloc": {
+        "lat": 21.0063912,
+        "lng": 105.7696179
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60cb8c1ed4f97e1508cf10ce",
+      "_snippetResult": {
+        "uid": {
+          "value": "60cb8c1ed4f97e1508cf10ce",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Căn hộ Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Quận Nam Từ Liêm",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "13500000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Mỹ Đình Pearl Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Xã Mỹ Đình, Quận Nam Từ …",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "1500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "20000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "110",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "1350000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0989339944",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "CHO THUÊ NHÀ\n\nDì mình chuyển về quê sinh sống, nên cần cho thuê chung cư ở Mỹ Đình pearl …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952164244_IMG_20210616_193355.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952183802_IMG_20210616_193353.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952200510_IMG_20210616_193404.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952256804_IMG_20210616_193355.jpg",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0063912",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.7696179",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0063912",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.7696179",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60cb8c1ed4f97e1508cf10ce",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Căn hộ Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Quận Nam Từ Liêm",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "13500000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Mỹ Đình Pearl Chung cư cao cấp Mỹ Đình Pearl Đại Lộ Thăng Long, Xã Mỹ Đình, Quận Nam Từ Liêm, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "1500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "20000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "110",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "1350000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0989339944",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "CHO THUÊ NHÀ\n\nDì mình chuyển về quê sinh sống, nên cần cho thuê chung cư ở Mỹ Đình pearl, Mặt đường đại lộ Thăng Long, cạnh chân cầu vượt Châu Văn Liêm. Dưới chân tòa nhà có đủ dịch vụ tập gym, spa, bể bơi, siêu thị, vị trí thuận tiện đi lại.\n\nNhà mới 84m2, 2 ngủ, 2 vs, 1 khách và bếp. Đồ đạc mới 100% 2 điều hòa, máy giặt, 2 giường, tủ quần áo, bàn ghế, tủ bếp, tivi... Cho thuê lâu dài\n\nGiá thuê 13,5tr/ tháng. Có fix nhẹ cho ng thiện chí.\nLh: 0989339944\nAce có bạn bè cần thuê chung cư giới thiệu m nhé!\nToà này người HQ thuê nhiều ạ. ",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952164244_IMG_20210616_193355.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952183802_IMG_20210616_193353.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952200510_IMG_20210616_193404.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623952256804_IMG_20210616_193355.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0063912",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.7696179",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0063912",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.7696179",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 62,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60cb7c52d4f97e1508cf0ae0",
+      "room_name": "Phòng cho thuê Triều khúc, Huyện Thanh Trì",
+      "available_status": 1,
+      "room_price": 2900000,
+      "exact_room_address": "147/10 Triều khúc, Xã Tân Triều, Huyện Thanh Trì, Hà Nội",
+      "electric_price": 3500,
+      "water_price": 28000,
+      "room_area": 27,
+      "deposit": 2900000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "20",
+          "text": "Huyện Thanh Trì",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0334818562",
+      "notes": "Không chung chủ,khép kín .3tr5 sale 2tr9 hiệu lực từ 10/6-25/6/2021 .thang máy khoá vân tay.tiện nghi ko quản giờ giấc.còn lại có hết như trong mô tả",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264610_PicsArt_06-16-11.34.22.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.34.57.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.52.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.24.07.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.33.jpg"
+      ],
+      "coordinate": {
+        "latitude": 20.986564,
+        "longitude": 105.797653
+      },
+      "_geoloc": {
+        "lat": 20.986564,
+        "lng": 105.797653
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60cb7c52d4f97e1508cf0ae0",
+      "_snippetResult": {
+        "uid": {
+          "value": "60cb7c52d4f97e1508cf0ae0",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Triều khúc, Huyện Thanh Trì",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "2900000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "147/10 Triều khúc, Xã Tân Triều, Huyện Thanh Trì, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "28000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "27",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "2900000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "20",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Huyện Thanh Trì",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0334818562",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Không chung chủ,khép kín .3tr5 sale 2tr9 hiệu lực từ 10/6-25/6/2021 .thang máy khoá vân …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264610_PicsArt_06-16-11.34.22.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.34.57.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.52.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.24.07.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.33.jpg",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.986564",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.797653",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.986564",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.797653",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60cb7c52d4f97e1508cf0ae0",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Triều khúc, Huyện Thanh Trì",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "2900000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "147/10 Triều khúc, Xã Tân Triều, Huyện Thanh Trì, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "28000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "27",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "2900000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "20",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Huyện Thanh Trì",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0334818562",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Không chung chủ,khép kín .3tr5 sale 2tr9 hiệu lực từ 10/6-25/6/2021 .thang máy khoá vân tay.tiện nghi ko quản giờ giấc.còn lại có hết như trong mô tả",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264610_PicsArt_06-16-11.34.22.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.34.57.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.52.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.24.07.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623948264611_PicsArt_06-16-11.23.33.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.986564",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.797653",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.986564",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.797653",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 61,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60c9e704925fe65d259eea08",
+      "room_name": "Phòng cho thuê Mễ trì, Quận Nam Từ Liêm",
+      "available_status": 1,
+      "room_price": 3800000,
+      "exact_room_address": "146 Mễ trì, Xã Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+      "electric_price": 3500,
+      "water_price": 25000,
+      "room_area": 25,
+      "deposit": 3800000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "19",
+          "text": "Quận Nam Từ Liêm",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0354672492",
+      "notes": "Sạch sẽ",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": true,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528290_IMG_5199.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528287_IMG_5198.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5199.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5198.JPG"
+      ],
+      "coordinate": {
+        "latitude": 21.0120469,
+        "longitude": 105.7748977
+      },
+      "_geoloc": {
+        "lat": 21.0120469,
+        "lng": 105.7748977
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60c9e704925fe65d259eea08",
+      "_snippetResult": {
+        "uid": {
+          "value": "60c9e704925fe65d259eea08",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Mễ trì, Quận Nam Từ Liêm",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "3800000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "146 Mễ trì, Xã Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "25000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "25",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "3800000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0354672492",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Sạch sẽ",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528290_IMG_5199.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528287_IMG_5198.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5199.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5198.JPG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0120469",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.7748977",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0120469",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.7748977",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60c9e704925fe65d259eea08",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Mễ trì, Quận Nam Từ Liêm",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "3800000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "146 Mễ trì, Xã Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "25000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "25",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "3800000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0354672492",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Sạch sẽ",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528290_IMG_5199.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844528287_IMG_5198.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5199.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623844575917_IMG_5198.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0120469",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.7748977",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0120469",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.7748977",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 60,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60c9dce8925fe65d259ee779",
+      "room_name": "Phòng cho thuê Ngõ 206 Trương Định , Quận Hoàng Mai",
+      "available_status": 1,
+      "room_price": 2200000,
+      "exact_room_address": "Ngách 31b số nhà 2 Ngõ 206 Trương Định , Phường Tương Mai, Quận Hoàng Mai, Hà Nội",
+      "electric_price": 4000,
+      "water_price": 80000,
+      "room_area": 17,
+      "deposit": 1,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "8",
+          "text": "Quận Hoàng Mai",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0344343022",
+      "notes": "Cho thuê phòng tầng 3\nVệ sinh riêng, chỗ phơi riêng được sử dụng nguyên 1 tầng, chỉ cho nữ thuê\nCó chỗ để xe, nấu ăn riêng trong phòng hoặc nấu chung ở tầng 1\nCó đủ điều hoà,tủ,giường,bàn học..\nGần trường học, bệnh viện, khu bách-kinh-xây, chợ",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623841460411_4E7EB8B9-8008-435C-B715-FB6BD5903C23.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623841561211_2D433200-AA8A-4ECF-BE6E-CB2D2E4E5666.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623841742739_CD2D0403-EDAC-4FF4-B595-9A90CB498CA0.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623841865784_9B638EE2-6D8D-484F-B0D0-EB87FC582C49.jpg"
+      ],
+      "coordinate": {
+        "latitude": 20.9904751,
+        "longitude": 105.8476128
+      },
+      "_geoloc": {
+        "lat": 20.9904751,
+        "lng": 105.8476128
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60c9dce8925fe65d259ee779",
+      "_snippetResult": {
+        "uid": {
+          "value": "60c9dce8925fe65d259ee779",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Ngõ 206 Trương Định , Quận Hoàng Mai",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "2200000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Ngách 31b số nhà 2 Ngõ 206 Trương Định , Phường Tương Mai, Quận Hoàng Mai, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "4000",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "80000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "17",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "8",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Hoàng Mai",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0344343022",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Cho thuê phòng tầng 3\nVệ sinh riêng, chỗ phơi riêng được sử dụng nguyên 1 tầng, chỉ cho nữ …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841460411_4E7EB8B9-8008-435C-B715-FB6BD5903C23.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841561211_2D433200-AA8A-4ECF-BE6E-CB2D2E4E5666.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841742739_CD2D0403-EDAC-4FF4-B595-9A90CB498CA0.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841865784_9B638EE2-6D8D-484F-B0D0-EB87FC582C49.jpg",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9904751",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.8476128",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9904751",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.8476128",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60c9dce8925fe65d259ee779",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Ngõ 206 Trương Định , Quận Hoàng Mai",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "2200000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Ngách 31b số nhà 2 Ngõ 206 Trương Định , Phường Tương Mai, Quận Hoàng Mai, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "4000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "80000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "17",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "8",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Hoàng Mai",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0344343022",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Cho thuê phòng tầng 3\nVệ sinh riêng, chỗ phơi riêng được sử dụng nguyên 1 tầng, chỉ cho nữ thuê\nCó chỗ để xe, nấu ăn riêng trong phòng hoặc nấu chung ở tầng 1\nCó đủ điều hoà,tủ,giường,bàn học..\nGần trường học, bệnh viện, khu bách-kinh-xây, chợ",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841460411_4E7EB8B9-8008-435C-B715-FB6BD5903C23.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841561211_2D433200-AA8A-4ECF-BE6E-CB2D2E4E5666.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841742739_CD2D0403-EDAC-4FF4-B595-9A90CB498CA0.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623841865784_9B638EE2-6D8D-484F-B0D0-EB87FC582C49.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9904751",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.8476128",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9904751",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.8476128",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 59,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60c8c8f538146c432417c9d0",
+      "room_name": "Phòng cho thuê Mễ trì hạ, Quận Nam Từ Liêm",
+      "available_status": 1,
+      "room_price": 2600000,
+      "exact_room_address": "Ngõ 59/21 mễ trì hạ (ngõ 59 mễ trì) Mễ trì hạ, Xã Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+      "electric_price": 3500,
+      "water_price": 25000,
+      "room_area": 25,
+      "deposit": 2600000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "19",
+          "text": "Quận Nam Từ Liêm",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0943192161",
+      "notes": "Mình có phòng khép kín tầng 2,3  rất thoáng mát , an toàn và yên tĩnh có:\nNóng lạnh \nGác xép\nBàn bếp\nCó setup theo yêu cầu\nBan công phơi đồ khép kín. \nĐể xe free tầng 1\nKhông chung chủ, giờ giấc tự do\nCamera 24/24,ngay chợ cóc,các cửa hàng tiện ích...\nĐiện 3,5k. Nước 25k/m3. Mạng 100k/p\nĐịa chỉ:  ngõ 59/21 mễ trì hạ ( ngõ 59 mễ trì)\nLhe, zalo: 0943192161",
+      "room_bed": false,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": false,
+      "room_washing_machine": false,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623771193163_IMG_20210614_210916.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623771204533_IMG_1623230438614_1623230449251.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623771213847_IMG_1623230438997_1623230449603.jpg",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1623771231201_IMG_1623230438765_1623230449441.jpg"
+      ],
+      "coordinate": {
+        "latitude": 21.0152347,
+        "longitude": 105.7825447
+      },
+      "_geoloc": {
+        "lat": 21.0152347,
+        "lng": 105.7825447
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60c8c8f538146c432417c9d0",
+      "_snippetResult": {
+        "uid": {
+          "value": "60c8c8f538146c432417c9d0",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Mễ trì hạ, Quận Nam Từ Liêm",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "2600000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Ngõ 59/21 mễ trì hạ (ngõ 59 mễ trì) Mễ trì hạ, Xã Mễ Trì, Quận Nam Từ Liêm …",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "25000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "25",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "2600000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0943192161",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "Mình có phòng khép kín tầng 2,3  rất thoáng mát , an toàn và yên tĩnh có:\nNóng lạnh \nGác …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771193163_IMG_20210614_210916.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771204533_IMG_1623230438614_1623230449251.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771213847_IMG_1623230438997_1623230449603.jpg",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771231201_IMG_1623230438765_1623230449441.jpg",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0152347",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.7825447",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0152347",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.7825447",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60c8c8f538146c432417c9d0",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê Mễ trì hạ, Quận Nam Từ Liêm",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "2600000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Ngõ 59/21 mễ trì hạ (ngõ 59 mễ trì) Mễ trì hạ, Xã Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "25000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "25",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "2600000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "19",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Nam Từ Liêm",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0943192161",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "Mình có phòng khép kín tầng 2,3  rất thoáng mát , an toàn và yên tĩnh có:\nNóng lạnh \nGác xép\nBàn bếp\nCó setup theo yêu cầu\nBan công phơi đồ khép kín. \nĐể xe free tầng 1\nKhông chung chủ, giờ giấc tự do\nCamera 24/24,ngay chợ cóc,các cửa hàng tiện ích...\nĐiện 3,5k. Nước 25k/m3. Mạng 100k/p\nĐịa chỉ:  ngõ 59/21 mễ trì hạ ( ngõ 59 mễ trì)\nLhe, zalo: 0943192161",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771193163_IMG_20210614_210916.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771204533_IMG_1623230438614_1623230449251.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771213847_IMG_1623230438997_1623230449603.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1623771231201_IMG_1623230438765_1623230449441.jpg",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "21.0152347",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.7825447",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "21.0152347",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.7825447",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 58,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "60be410048213b79278d8e50",
+      "room_name": "Phòng cho thuê khương đình, Quận Thanh Xuân",
+      "available_status": 1,
+      "room_price": 3700000,
+      "exact_room_address": "Số nhà 16 ngõ 236 khương đình khương đình, Phường Khương Đình, Quận Thanh Xuân, Hà Nội",
+      "electric_price": 3500,
+      "water_price": 30000,
+      "room_area": 30,
+      "deposit": 3700000,
+      "room_wifi": true,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "9",
+          "text": "Quận Thanh Xuân",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0329282289",
+      "notes": "❌❌CHO THUÊ CCMN MỚI XÂY FULL ĐỒ❌❌❌\n\nSỐ 16 NGÕ 236 KHUƠNG ĐÌNH_ NGÃ TƯ SỞ_ THANH XUÂN\n \n⚡Cách ngã tư sở 500m\n\n⚡Gần chợ, trung tâm thuơng mại, \n\n⚡Giuờng, tủ, nóng Lạnh, điều hòa, quạt treo tường, tủ âm tường, thang máy, camera, khóa vân tay... \n\n⚡Giờ giấc tự do thoải mái, ko chung chủ, an ninh tốt\n\n⚡Mỗi tầng có bình phòng cháy chữa cháy riêng\n\n⚡Diện tích 26- 35m2\n",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": false,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7521.PNG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7518.PNG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7520.PNG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878653_IMG_7517.PNG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7522.PNG"
+      ],
+      "coordinate": {
+        "latitude": 20.9924544,
+        "longitude": 105.8128723
+      },
+      "_geoloc": {
+        "lat": 20.9924544,
+        "lng": 105.8128723
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "60be410048213b79278d8e50",
+      "_snippetResult": {
+        "uid": {
+          "value": "60be410048213b79278d8e50",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "Phòng cho thuê khương đình, Quận Thanh Xuân",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "3700000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "Số nhà 16 ngõ 236 khương đình khương đình, Phường Khương Đình, Quận Thanh Xuân, Hà Nội",
+          "matchLevel": "none"
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none"
+        },
+        "water_price": {
+          "value": "30000",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "30",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "3700000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "9",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Thanh Xuân",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0329282289",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "❌❌CHO THUÊ CCMN MỚI XÂY FULL ĐỒ❌❌❌\n\nSỐ 16 NGÕ 236 KHUƠNG ĐÌNH_ NGÃ TƯ SỞ_ THANH XUÂN\n \n⚡Cách ngã …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7521.PNG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7518.PNG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7520.PNG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878653_IMG_7517.PNG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7522.PNG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9924544",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.8128723",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9924544",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.8128723",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "60be410048213b79278d8e50",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "Phòng cho thuê khương đình, Quận Thanh Xuân",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "3700000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "Số nhà 16 ngõ 236 khương đình khương đình, Phường Khương Đình, Quận Thanh Xuân, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "electric_price": {
+          "value": "3500",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "water_price": {
+          "value": "30000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "30",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "3700000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "9",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Thanh Xuân",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0329282289",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "❌❌CHO THUÊ CCMN MỚI XÂY FULL ĐỒ❌❌❌\n\nSỐ 16 NGÕ 236 KHUƠNG ĐÌNH_ NGÃ TƯ SỞ_ THANH XUÂN\n \n⚡Cách ngã tư sở 500m\n\n⚡Gần chợ, trung tâm thuơng mại, \n\n⚡Giuờng, tủ, nóng Lạnh, điều hòa, quạt treo tường, tủ âm tường, thang máy, camera, khóa vân tay... \n\n⚡Giờ giấc tự do thoải mái, ko chung chủ, an ninh tốt\n\n⚡Mỗi tầng có bình phòng cháy chữa cháy riêng\n\n⚡Diện tích 26- 35m2\n",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7521.PNG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7518.PNG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7520.PNG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878653_IMG_7517.PNG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1624700878654_IMG_7522.PNG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9924544",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.8128723",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9924544",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.8128723",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 57,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "5f48cb99fc55a766e0d3eb52",
+      "room_name": "HOMESTAY NAM TRỌN GÓI 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG",
+      "available_status": 1,
+      "room_price": 1299000,
+      "exact_room_address": "96a Định công, Phường Định Công, Quận Hoàng Mai, Hà Nội",
+      "electric_price": null,
+      "water_price": null,
+      "room_area": 130,
+      "deposit": 1299000,
+      "room_wifi": false,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "8",
+          "text": "Quận Hoàng Mai",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0901498666",
+      "notes": "HOMESTAY NAM TRỌN GÓI CHỈ 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG GẦN BÁCH-KINH-XÂY\n\nTÌM NAM Ở GHÉP MIỄN PHÍ ĐIỆN NƯỚC MẠNG GAS FULL ĐỒ 1,3trieu/NG/THG\n(Dịch vụ Ở GHÉP tiết kiệm chi phí với những tiện ích cao cấp )\n* Địa chỉ: chung cư 96A Định Công. cách các trường lớn BÁCH – KINH – XÂY chỉ 1,5km\n\nCăn hộ cho thuê phù hợp với sinh viên, người mới đi làm:\n 🔥GIÁ SIÊU RẺ\n\n - Phòng NAM 3 giường tầng giá 1,3 triệu)\n\nGiá trên đã bao gồm toàn bộ các chi phí: điện, nước sạch mạng internet,\ncó người dọn tổng vệ sinh hàng tuần\n  🔥Căn hộ nằm tại khu đô thị cao cấp đảm bảo an ninh, sạch sẽ, thuận tiện giao thông, đầy đủ tiện nghi chỉ việc xách quần áo đến ở.\n\nTIỆN ÍCH TẦNG 1: Siêu thị Vinmart, phòng tập GYM, ngân hàng...\n\n ✨ Mỗi người có 1 tủ quần áo có khóa riêng, chăn ga gối đệm đủ bộ\n ✨ Bếp, tủ bếp , nồi niêu bát đĩa \n ✨TIVI 40 inch, Tủ lạnh , máy giặt , bình nóng lạnh, điều hòa\n ✨ Bình lọc nước uống tại vòi (khỏi mất công đi đổi nước và tốn chi phí)\n\nCác bạn quan tâm vui lòng liên hệ chính chủ để đi xem nhà\nNÓI KHÔNG VỚI THU PHÍ ĐI XEM HOẶC THUÊ\nLH: 0901498666 (fb, zalo, viber, imessage)",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": true,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3629.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3630.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3626.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3634.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3866.JPG"
+      ],
+      "coordinate": {
+        "latitude": 20.9894127,
+        "longitude": 105.8323315
+      },
+      "_geoloc": {
+        "lat": 20.9894127,
+        "lng": 105.8323315
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "5f48cb99fc55a766e0d3eb52",
+      "_snippetResult": {
+        "uid": {
+          "value": "5f48cb99fc55a766e0d3eb52",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "HOMESTAY NAM TRỌN GÓI 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "1299000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "96a Định công, Phường Định Công, Quận Hoàng Mai, Hà Nội",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "130",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "1299000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "8",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Hoàng Mai",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0901498666",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "HOMESTAY NAM TRỌN GÓI CHỈ 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG GẦN BÁCH-KINH-XÂY\n\nTÌM NAM Ở …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3629.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3630.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3626.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3634.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3866.JPG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9894127",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.8323315",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9894127",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.8323315",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "5f48cb99fc55a766e0d3eb52",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "HOMESTAY NAM TRỌN GÓI 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "1299000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "96a Định công, Phường Định Công, Quận Hoàng Mai, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "130",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "1299000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "8",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Hoàng Mai",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0901498666",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "HOMESTAY NAM TRỌN GÓI CHỈ 1,3 TRIỆU/THG ĐIỀU HOÀ LẠNH CÓNG GẦN BÁCH-KINH-XÂY\n\nTÌM NAM Ở GHÉP MIỄN PHÍ ĐIỆN NƯỚC MẠNG GAS FULL ĐỒ 1,3trieu/NG/THG\n(Dịch vụ Ở GHÉP tiết kiệm chi phí với những tiện ích cao cấp )\n* Địa chỉ: chung cư 96A Định Công. cách các trường lớn BÁCH – KINH – XÂY chỉ 1,5km\n\nCăn hộ cho thuê phù hợp với sinh viên, người mới đi làm:\n 🔥GIÁ SIÊU RẺ\n\n - Phòng NAM 3 giường tầng giá 1,3 triệu)\n\nGiá trên đã bao gồm toàn bộ các chi phí: điện, nước sạch mạng internet,\ncó người dọn tổng vệ sinh hàng tuần\n  🔥Căn hộ nằm tại khu đô thị cao cấp đảm bảo an ninh, sạch sẽ, thuận tiện giao thông, đầy đủ tiện nghi chỉ việc xách quần áo đến ở.\n\nTIỆN ÍCH TẦNG 1: Siêu thị Vinmart, phòng tập GYM, ngân hàng...\n\n ✨ Mỗi người có 1 tủ quần áo có khóa riêng, chăn ga gối đệm đủ bộ\n ✨ Bếp, tủ bếp , nồi niêu bát đĩa \n ✨TIVI 40 inch, Tủ lạnh , máy giặt , bình nóng lạnh, điều hòa\n ✨ Bình lọc nước uống tại vòi (khỏi mất công đi đổi nước và tốn chi phí)\n\nCác bạn quan tâm vui lòng liên hệ chính chủ để đi xem nhà\nNÓI KHÔNG VỚI THU PHÍ ĐI XEM HOẶC THUÊ\nLH: 0901498666 (fb, zalo, viber, imessage)",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3629.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3630.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3626.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096590_IMG_3634.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598606096591_IMG_3866.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9894127",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.8323315",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9894127",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.8323315",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 56,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    },
+    {
+      "uid": "5f48cac5fc55a766e0d3e39e",
+      "room_name": "HOMESTAY CAO CẤP CẠNH BÁCH-KINH-XÂY TRỌN GÓI 1,4TR/THÁNG",
+      "available_status": 1,
+      "room_price": 1399000,
+      "exact_room_address": "229 Phố vọng, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",
+      "electric_price": null,
+      "water_price": null,
+      "room_area": 130,
+      "deposit": 1399000,
+      "room_wifi": false,
+      "parking_situation": true,
+      "full_address_object": {
+        "city": {
+          "code": "01",
+          "text": "Thành phố Hà Nội"
+        },
+        "district": {
+          "code": "7",
+          "text": "Quận Hai Bà Trưng",
+          "cityCode": "HN"
+        }
+      },
+      "phone_number": "0901498666",
+      "notes": "(Dịch vụ Ở GHÉP tiết kiệm chi phí với những tiện ích cao cấp )\n* Địa chỉ: ngõ 229 Phố Vọng. cách các trường lớn BÁCH – KINH – XÂY chỉ 600m\n\n- Bạn đang là sinh viên?\n- Bạn là người mới đi làm?\nTất cả đều mong muốn được sống trong một không gian hiện đại, đầy đủ tiện nghi, môi trường sống dân trí cao, thời gian đi lại thoải mái, và quan trọng là không phát sinh chi phí\n\nChúng tôi đã xây dựng được căn hộ cho thuê phù hợp với các bạn tại Số 229 Phố Vọng:\n\n- phòng NỮ 3 giường tầng, WC khép kín - còn 2 slot giá 1.500.000/người/tháng\n- phòng NAM 3 giường tầng, - còn 2 slot giá 1.400.000/người/tháng\n\nGiá trên đã bao gồm TOÀN BỘ CÁC CHI PHÍ: điện, nước sạch mạng internet, gas, vệ sinh hàng tuần (cam kết không phát sinh chi phí)\nCăn hộ nằm tại khu chung cư cao cấp đảm bảo an ninh, sạch sẽ, thuận tiện giao thông, đầy đủ tiện nghi chỉ việc xách quần áo đến ở\n✨ Mỗi người có 2 tủ quần áo có khóa riêng\n✨ Bếp, tủ bếp , nồi niêu bát đĩa \n✨ Tủ lạnh , máy giặt , bình nóng lạnh, điều hòa, bồn tắm nằm.\n✨ Bình lọc nước uống tại vòi.\n\nCác bạn quan tâm vui lòng liên hệ chính chủ để đi xem nhà\nNÓI KHÔNG VỚI THU PHÍ ĐI XEM\nLH CHÍNH CHỦ: (fb, zalo, viber, imessage)",
+      "room_bed": true,
+      "room_closet": true,
+      "room_tivi": false,
+      "air_conditioner": true,
+      "room_washing_machine": true,
+      "upload_room_images": [
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2543.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2587.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2586.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2583.JPG",
+        "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2577.JPG"
+      ],
+      "coordinate": {
+        "latitude": 20.9957799,
+        "longitude": 105.8429396
+      },
+      "_geoloc": {
+        "lat": 20.9957799,
+        "lng": 105.8429396
+      },
+      "room_owner": "Nguyễn Minh Tiến",
+      "created_by": {
+        "birthday": "02/07/1989",
+        "displayName": "Nguyễn Minh Tiến",
+        "gender": 1,
+        "homeTown": "79",
+        "job": 0,
+        "phoneNumber": "+84949709030",
+        "role": 1,
+        "uid": "xnuDARdZi8cusICgNnw86LvTI0k2"
+      },
+      "type": 1,
+      "objectID": "5f48cac5fc55a766e0d3e39e",
+      "_snippetResult": {
+        "uid": {
+          "value": "5f48cac5fc55a766e0d3e39e",
+          "matchLevel": "none"
+        },
+        "room_name": {
+          "value": "HOMESTAY CAO CẤP CẠNH BÁCH-KINH-XÂY TRỌN GÓI 1,4TR/THÁNG",
+          "matchLevel": "none"
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none"
+        },
+        "room_price": {
+          "value": "1399000",
+          "matchLevel": "none"
+        },
+        "exact_room_address": {
+          "value": "229 Phố vọng, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",
+          "matchLevel": "none"
+        },
+        "room_area": {
+          "value": "130",
+          "matchLevel": "none"
+        },
+        "deposit": {
+          "value": "1399000",
+          "matchLevel": "none"
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none"
+            }
+          },
+          "district": {
+            "code": {
+              "value": "7",
+              "matchLevel": "none"
+            },
+            "text": {
+              "value": "Quận Hai Bà Trưng",
+              "matchLevel": "none"
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none"
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0901498666",
+          "matchLevel": "none"
+        },
+        "notes": {
+          "value": "(Dịch vụ Ở GHÉP tiết kiệm chi phí với những tiện ích cao cấp )\n* Địa chỉ: ngõ 229 Phố …",
+          "matchLevel": "none"
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2543.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2587.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2586.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2583.JPG",
+            "matchLevel": "none"
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2577.JPG",
+            "matchLevel": "none"
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9957799",
+            "matchLevel": "none"
+          },
+          "longitude": {
+            "value": "105.8429396",
+            "matchLevel": "none"
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9957799",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "105.8429396",
+            "matchLevel": "none"
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none"
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none"
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none"
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none"
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none"
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none"
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none"
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none"
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "uid": {
+          "value": "5f48cac5fc55a766e0d3e39e",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_name": {
+          "value": "HOMESTAY CAO CẤP CẠNH BÁCH-KINH-XÂY TRỌN GÓI 1,4TR/THÁNG",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "available_status": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_price": {
+          "value": "1399000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "exact_room_address": {
+          "value": "229 Phố vọng, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "room_area": {
+          "value": "130",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "deposit": {
+          "value": "1399000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "full_address_object": {
+          "city": {
+            "code": {
+              "value": "01",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Thành phố Hà Nội",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          "district": {
+            "code": {
+              "value": "7",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "text": {
+              "value": "Quận Hai Bà Trưng",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "cityCode": {
+              "value": "HN",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        "phone_number": {
+          "value": "0901498666",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "notes": {
+          "value": "(Dịch vụ Ở GHÉP tiết kiệm chi phí với những tiện ích cao cấp )\n* Địa chỉ: ngõ 229 Phố Vọng. cách các trường lớn BÁCH – KINH – XÂY chỉ 600m\n\n- Bạn đang là sinh viên?\n- Bạn là người mới đi làm?\nTất cả đều mong muốn được sống trong một không gian hiện đại, đầy đủ tiện nghi, môi trường sống dân trí cao, thời gian đi lại thoải mái, và quan trọng là không phát sinh chi phí\n\nChúng tôi đã xây dựng được căn hộ cho thuê phù hợp với các bạn tại Số 229 Phố Vọng:\n\n- phòng NỮ 3 giường tầng, WC khép kín - còn 2 slot giá 1.500.000/người/tháng\n- phòng NAM 3 giường tầng, - còn 2 slot giá 1.400.000/người/tháng\n\nGiá trên đã bao gồm TOÀN BỘ CÁC CHI PHÍ: điện, nước sạch mạng internet, gas, vệ sinh hàng tuần (cam kết không phát sinh chi phí)\nCăn hộ nằm tại khu chung cư cao cấp đảm bảo an ninh, sạch sẽ, thuận tiện giao thông, đầy đủ tiện nghi chỉ việc xách quần áo đến ở\n✨ Mỗi người có 2 tủ quần áo có khóa riêng\n✨ Bếp, tủ bếp , nồi niêu bát đĩa \n✨ Tủ lạnh , máy giặt , bình nóng lạnh, điều hòa, bồn tắm nằm.\n✨ Bình lọc nước uống tại vòi.\n\nCác bạn quan tâm vui lòng liên hệ chính chủ để đi xem nhà\nNÓI KHÔNG VỚI THU PHÍ ĐI XEM\nLH CHÍNH CHỦ: (fb, zalo, viber, imessage)",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "upload_room_images": [
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2543.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2587.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2586.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2583.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "https://bayleaf.s3.amazonaws.com/property-images%2F1598605965465_IMG_2577.JPG",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ],
+        "coordinate": {
+          "latitude": {
+            "value": "20.9957799",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "longitude": {
+            "value": "105.8429396",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "20.9957799",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "105.8429396",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "room_owner": {
+          "value": "Nguyễn Minh Tiến",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "created_by": {
+          "birthday": {
+            "value": "02/07/1989",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "displayName": {
+            "value": "Nguyễn Minh Tiến",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "gender": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "homeTown": {
+            "value": "79",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "job": {
+            "value": "0",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "phoneNumber": {
+            "value": "+84949709030",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "role": {
+            "value": "1",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "uid": {
+            "value": "xnuDARdZi8cusICgNnw86LvTI0k2",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "type": {
+          "value": "1",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 55,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
+    }
+  ]

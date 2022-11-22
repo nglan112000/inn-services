@@ -10,7 +10,7 @@ import styles from './filter.style';
 
 const Filter = ({styleContainer, callBack, isShow, defaultValue}) => {
   const animationRef = useRef(null);
-  const [city, setCity] = useState(defaultValue?.city?.Id || '79');
+  const [city, setCity] = useState(defaultValue?.city?.Id || '48');
   const [district, setDistrict] = useState(defaultValue?.district?.Id);
   const [isActive, setIsActive] = useState(isShow);
 

@@ -3,7 +3,7 @@ import {SET_SETTING} from '../actions/types';
 
 const initialState = {
   setting: {
-    city: '79',
+    city: '48',
   },
 };
 

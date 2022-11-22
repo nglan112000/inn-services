@@ -22,8 +22,8 @@ export const useInn = ({navigation}) => {
   const [headerText, setHeaderText] = useState('');
   const [filter, setFilter] = useState({
     city: {
-      Id: city?.Id || '79',
-      Name: city?.Name || 'TP. Hồ Chí Minh',
+      Id: city?.Id || '48',
+      Name: city?.Name || 'TP. Đà Nẵng',
     },
     district: district || null,
     maxRadius: 5000,
@@ -115,6 +115,7 @@ export const useInn = ({navigation}) => {
       .collection('Messages')
       .where('users', 'array-contains', uid)
       .onSnapshot(documentSnapshot => {
+        console.log({documentSnapshot:documentSnapshot.docChanges(), uid, docs: documentSnapshot.docs.data})
         dispatch(changeMessage(documentSnapshot.docChanges()));
       });
     return () => subscriber();

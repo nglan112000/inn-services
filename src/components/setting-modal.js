@@ -17,7 +17,7 @@ import {getSetting} from '../store/actions/globalAction';
 import {selectSetting} from '../containers/global/selectors';
 
 export const SettingModal = ({visible, onClose}) => {
-  const [city, setCity] = useState('79');
+  const [city, setCity] = useState('48');
   const [district, setDistrict] = useState();
   const uid = useSelector(selectUid);
   const setting = useSelector(selectSetting);

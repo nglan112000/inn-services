@@ -111,8 +111,8 @@ const MapPicker = ({
       <MapView
         ref={mapRef}
         initialRegion={{
-          latitude: defaultValue?.latitude || 10.821473,
-          longitude: defaultValue?.longitude || 106.62865,
+          latitude: defaultValue?.latitude || 16.052049,
+          longitude: defaultValue?.longitude || 108.213942,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}

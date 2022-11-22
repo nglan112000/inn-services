@@ -52,7 +52,7 @@ const AdditionalInfo = ({navigation}) => {
     birthday: userCredential.birthday
       ? dayjs(userCredential.birthday).format('DD/MM/YYYY')
       : dayjs().format('DD/MM/YYYY'),
-    homeTown: '79',
+    homeTown: '48',
     role: 1,
     gender: 0,
     job: 1,

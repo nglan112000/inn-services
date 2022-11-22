@@ -1,5 +1,5 @@
-import {useCallback, useEffect, useMemo, useState} from 'react';
-import {useDispatch, useSelector} from 'react-redux';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   resetCreateRoommateStatus,
   resetUpdateRoommateStatus,
@@ -8,17 +8,17 @@ import {
   createRoommate,
   updateRoommate,
 } from '../../../store/actions/roommateAction';
-import {formatString, getCity, unFormatString} from '../../../utils/utils';
-import {selectUserInfo} from '../../login/selectors';
+import { formatString, getCity, unFormatString } from '../../../utils/utils';
+import { selectUserInfo } from '../../login/selectors';
 import {
   selectCreateRoommateStatus,
   selectDeleteRoommateStatus,
   selectUpdateRoommateStatus,
 } from '../selectors';
-import {status} from '../../../constants/constants';
-import {navigationName} from '../../../constants/navigation';
+import { status } from '../../../constants/constants';
+import { navigationName } from '../../../constants/navigation';
 
-const usePostHook = ({data = {}, navigation}) => {
+const usePostHook = ({ data = {}, navigation }) => {
   const [showInnInfo, setShowInnInfo] = useState(data.haveInnContent || false);
   const userInfo = useSelector(selectUserInfo);
   const age = useMemo(() => {
@@ -38,44 +38,44 @@ const usePostHook = ({data = {}, navigation}) => {
   const [roommate, setRoommate] = useState(
     data.id
       ? {
-          ...data,
-          city: data.city?.Id,
-          district: data.district?.Id,
-          innPrice: formatString(data.innPrice, 'currency'),
-          innWaterPrice: formatString(data.innWaterPrice, 'currency'),
-          innElectricPrice: formatString(data.innElectricPrice, 'currency'),
-          innDeposit: formatString(data.innDeposit, 'currency'),
-          innArea: formatString(data.innArea, 'currency'),
-        }
+        ...data,
+        city: data.city?.Id,
+        district: data.district?.Id,
+        innPrice: formatString(data.innPrice, 'currency'),
+        innWaterPrice: formatString(data.innWaterPrice, 'currency'),
+        innElectricPrice: formatString(data.innElectricPrice, 'currency'),
+        innDeposit: formatString(data.innDeposit, 'currency'),
+        innArea: formatString(data.innArea, 'currency'),
+      }
       : {
-          content: '',
-          innName: null,
-          innOwner: null,
-          innPrice: null,
-          innAddress: null,
-          innWaterPrice: null,
-          innElectricPrice: null,
-          innArea: null,
-          innDeposit: null,
-          city: '79',
-          district: null,
-          job: userInfo.job || 0,
-          gender: userInfo.gender,
-          age: [age - 3, age + 3],
-        },
+        content: '',
+        innName: null,
+        innOwner: null,
+        innPrice: null,
+        innAddress: null,
+        innWaterPrice: null,
+        innElectricPrice: null,
+        innArea: null,
+        innDeposit: null,
+        city: '48',
+        district: null,
+        job: userInfo.job || 0,
+        gender: userInfo.gender,
+        age: [age - 3, age + 3],
+      },
   );
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
   const [showDeleteConfirmModal, setShowDeleteConfirmModal] = useState(false);
 
-  const {status: createRoommateStatus} = useSelector(
+  const { status: createRoommateStatus } = useSelector(
     selectCreateRoommateStatus,
   );
-  const {status: updateRoommateStatus} = useSelector(
+  const { status: updateRoommateStatus } = useSelector(
     selectUpdateRoommateStatus,
   );
-  const {status: deleteRoommateStatus} = useSelector(
+  const { status: deleteRoommateStatus } = useSelector(
     selectDeleteRoommateStatus,
   );
 
@@ -221,8 +221,8 @@ const usePostHook = ({data = {}, navigation}) => {
   );
 
   const onPost = useCallback(() => {
-    const {Districts, ...city} = getCity(roommate.city) || {};
-    const {Wards, ...district} =
+    const { Districts, ...city } = getCity(roommate.city) || {};
+    const { Wards, ...district } =
       Districts?.find(item => item.Id === roommate.district) || {};
     let payload = {
       content: roommate.content,
@@ -251,7 +251,7 @@ const usePostHook = ({data = {}, navigation}) => {
       };
     }
     if (roommate.id) {
-      dispatch(updateRoommate({id: roommate.id, ...payload}));
+      dispatch(updateRoommate({ id: roommate.id, ...payload }));
     } else {
       dispatch(createRoommate(payload));
     }

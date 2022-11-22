@@ -130,7 +130,7 @@ export const useChatDetail = () => {
     },
     selectors: {
       image,
-      messages: Object.values(message),
+      messages: Object.values(message || {}),
       uid,
     },
   };

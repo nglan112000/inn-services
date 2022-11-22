@@ -18,7 +18,7 @@ export const useHouseware = ({navigation}) => {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState({
     searchText: '',
-    city: setting?.city || '79',
+    city: setting?.city || '48',
     district: setting?.district || '',
   });
   const housewares = useSelector(selectHousewares);

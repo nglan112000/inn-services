@@ -145,7 +145,7 @@ export const Filter = memo(
   }) => {
     const [openModal, setOpenModal] = useState(false);
     const [filterValue, setFilterValue] = useState({
-      city: defaultValue?.city || '79',
+      city: defaultValue?.city || '48',
       district: defaultValue?.district || '',
       price: {
         minPrice: 0,

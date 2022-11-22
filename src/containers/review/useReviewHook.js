@@ -23,6 +23,7 @@ export const useReviewHook = reviewId => {
 
   const onFetchReview = async () => {
     try {
+      console.log('==========',{reviewId})
       if (!reviewId) {
         return;
       }
@@ -30,6 +31,7 @@ export const useReviewHook = reviewId => {
         .collection('Reviews')
         .doc(reviewId)
         .get();
+        console.log('==========1',{result})
       if (result.exists) {
         let data = result.data();
         data.items = data.items?.reverse();

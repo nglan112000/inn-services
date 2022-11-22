@@ -43,7 +43,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
     innWifi: data.room_wifi,
     innGarage: data.parking_situation,
     innDistrict: data.full_address_object?.district.code,
-    innCity: data.full_address_object?.city.code || '79',
+    innCity: data.full_address_object?.city.code || '48',
     innContact: formatString(
       data.phone_number || userInfo?.phoneNumber,
       'phoneNumber',

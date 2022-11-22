@@ -84,7 +84,6 @@ export const ModalReport = ({visible, id, collection, onClose = () => {}}) => {
   const onSend = async () => {
     try {
       const reason = makePayload();
-      console.log('id: ', id);
 
       const doc = await firestore().collection('Reports').doc(id).get();
       const rp = {

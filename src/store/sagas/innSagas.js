@@ -57,10 +57,8 @@ function* fetchInnTask({type, payload}) {
     //   payload.typeOfItem === 'map' ||
     //   !!payload.type
     // ) {
-      const aaa = yield call(fetchDataFromAlgolia, {...payload, count});
-      console.log(aaa);
-      data = aaa.hits;
-      console.log({data});
+      const result = yield call(fetchDataFromAlgolia, {...payload, count});
+      data = result.hits.map(item => ({...item,uid: item.objectID}));
     // } else {
     //   const result = yield call(fetchDataFromFirebase, {...payload, last});
     //   if (result.docs.length) {

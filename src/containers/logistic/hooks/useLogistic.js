@@ -19,8 +19,8 @@ export const useLogistic = ({navigation}) => {
   const [isShowFilter, setIsShowFilter] = useState(false);
   const [filter, setFilter] = useState({
     city: {
-      Id: city?.Id || '79',
-      Name: city?.Name || 'TP. Hồ Chí Minh',
+      Id: city?.Id || '48',
+      Name: city?.Name || 'TP. Đà Nẵng',
     },
     district: district || null,
   });

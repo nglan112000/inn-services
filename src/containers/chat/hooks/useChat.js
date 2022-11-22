@@ -7,6 +7,7 @@ import {selectMessage} from '../selectors';
 
 const useChat = ({navigation}) => {
   const message = useSelector(selectMessage);
+  console.log({message})
   const uid = useSelector(selectUid);
 
   const goToChatDetail = useCallback(
@@ -30,8 +31,8 @@ const useChat = ({navigation}) => {
       goToChatDetail,
     },
     selectors: {
-      messages: Object.values(message),
-      lastMessages: Object.values(message).map(msg => {
+      messages: Object.values(message || {}),
+      lastMessages: Object.values(message || {}).map(msg => {
         const user = msg.userInfos.find(ui => ui.id !== uid);
         return {
           ...user,

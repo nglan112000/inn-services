@@ -11,7 +11,6 @@ export default function Test() {
   const onPush = useCallback(async () => {
     try {
       const result = await firestore().collection('Inns').get();
-      // console.log('result: ', result.docs[0]);
       result.docs.forEach(async doc => {
         await firestore().collection('Inns').doc(doc.id).update({
           type: 1,

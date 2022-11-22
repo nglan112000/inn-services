@@ -45,6 +45,7 @@ const Logistic = ({navigation}) => {
     ));
   };
 
+
   return (
     <View style={styles.container}>
       <View style={styles.main}>

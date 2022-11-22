@@ -25,15 +25,15 @@ const MyInn = ({navigation}) => {
         ListFooterComponent={<FooterListComponent isLoading={loading} />}
         renderItem={item => (
           <TouchableOpacity
-            onPress={() => onOpenCreateInnLikeUpdate({data: item.item})}
+            onPress={() => onOpenCreateInnLikeUpdate({data: item?.item})}
             activeOpacity={activeOpacity}>
             <LargeItem
-              images={item.item.upload_room_images}
-              room_name={item.item.room_name}
-              room_price={item.item.room_price}
-              electric_price={item.item.electric_price}
-              water_price={item.item.water_price}
-              exact_room_address={item.item.exact_room_address}
+              images={item?.item?.upload_room_images}
+              room_name={item?.item?.room_name}
+              room_price={item?.item?.room_price}
+              electric_price={item?.item?.electric_price}
+              water_price={item?.item?.water_price}
+              exact_room_address={item?.item?.exact_room_address}
             />
           </TouchableOpacity>
         )}

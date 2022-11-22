@@ -35,7 +35,7 @@ const Filter = ({
     minPrice: 0,
     maxPrice: 10000000,
   });
-  const [city, setCity] = useState(defaultValue?.city?.Id || '79');
+  const [city, setCity] = useState(defaultValue?.city?.Id || '48');
   const [type, setType] = useState(0);
   const [district, setDistrict] = useState(defaultValue?.district?.Id);
   const [area, setArea] = useState([10, 200]);

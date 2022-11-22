@@ -17,7 +17,7 @@ import {gender as genders, jobs} from '../../../constants/constants';
 const Filter = ({styleContainer, callBack, isShow, defaultValue}) => {
   const animationRef = useRef(null);
   const [isActive, setIsActive] = useState(isShow);
-  const [city, setCity] = useState(defaultValue?.city?.Id || '79');
+  const [city, setCity] = useState(defaultValue?.city?.Id || '48');
   const [district, setDistrict] = useState(defaultValue?.district?.Id);
   const [gender, setGender] = useState(defaultValue.gender);
   const [job, setJob] = useState(defaultValue.job);

@@ -51,7 +51,7 @@ export const useCreateLogistic = ({data = {}, navigation}) => {
     area: data.area?.filter(item => item) || [],
     exactAddress: data.exact_address,
     price: data.price,
-    city: data.full_address_object?.city.Id || '79',
+    city: data.full_address_object?.city.Id || '48',
     district: data.full_address_object?.district.Id,
     ownerName: data.ownerName || userInfo.displayName,
     contact: formatString(data.contact || userInfo.phoneNumber, 'phoneNumber'),

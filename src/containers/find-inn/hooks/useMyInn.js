@@ -16,6 +16,7 @@ export const useMyInn = ({navigation}) => {
 
   const onOpenCreateInnLikeUpdate = useCallback(
     data => {
+      console.log(data)
       navigation.navigate(navigationName.findInn.createInn, {
         data: {...data, isUpdate: true},
       });
@@ -24,7 +25,7 @@ export const useMyInn = ({navigation}) => {
   );
 
   const handleFetchMyInn = useCallback(
-    ({...props}) => {
+    (props) => {
       dispatch(fecthMyInn(props));
     },
     [dispatch],
