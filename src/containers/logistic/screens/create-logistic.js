@@ -11,6 +11,7 @@ import {
 } from '../../../components';
 import {DeleteConfirm} from '../../../components/delete-confirm/delete-confirm';
 import {translate} from '../../../constants/translate';
+import { globalStyles } from '../../../global.style';
 import {useCreateLogistic} from '../hooks/useCreateLogistic';
 import {styles} from './create-logistic.style';
 
@@ -141,7 +142,7 @@ const CreateLogistic = ({route, navigation}) => {
           loading={loading}
           title={translate.save}
           containerStyle={styles.buttonContainer}
-          type="outline"
+          buttonStyle={globalStyles.green}
           disabled={deleteLoading}
           onPress={onCreateLogistic}
         />

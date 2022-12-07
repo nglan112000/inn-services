@@ -187,7 +187,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
     return !errors.length;
   };
 
-  const hanleChangeInn = useCallback(
+  const handleChangeInn = useCallback(
     (value, field) => {
       setInn(preState => ({
         ...preState,
@@ -203,200 +203,200 @@ export const useCreateInn = ({data = {}, navigation}) => {
 
   const onChangeName = useCallback(
     value => {
-      hanleChangeInn(value, 'innName');
+      handleChangeInn(value, 'innName');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeAddress = useCallback(
     value => {
-      hanleChangeInn(value, 'innAddress');
+      handleChangeInn(value, 'innAddress');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeImages = useCallback(
     value => {
-      hanleChangeInn(value, 'images');
+      handleChangeInn(value, 'images');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeCity = useCallback(
     value => {
-      hanleChangeInn(value(), 'innCity');
+      handleChangeInn(value(), 'innCity');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeDistrict = useCallback(
     value => {
-      hanleChangeInn(value(), 'innDistrict');
+      handleChangeInn(value(), 'innDistrict');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeStatus = useCallback(
     value => {
-      hanleChangeInn(value(), 'innStatus');
+      handleChangeInn(value(), 'innStatus');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangePrice = useCallback(
     value => {
-      hanleChangeInn(formatString(value, 'currency'), 'innPrice');
+      handleChangeInn(formatString(value, 'currency'), 'innPrice');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeElectricPrice = useCallback(
     value => {
-      hanleChangeInn(formatString(value, 'currency'), 'innElectricPrice');
+      handleChangeInn(formatString(value, 'currency'), 'innElectricPrice');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeWaterPrice = useCallback(
     value => {
-      hanleChangeInn(
-        hanleChangeInn(formatString(value, 'currency'), 'innWaterPrice'),
+      handleChangeInn(
+        handleChangeInn(formatString(value, 'currency'), 'innWaterPrice'),
       );
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeArea = useCallback(
     value => {
-      hanleChangeInn(value, 'innArea');
+      handleChangeInn(value, 'innArea');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeDeposit = useCallback(
     value => {
-      hanleChangeInn(formatString(value, 'currency'), 'innDeposit');
+      handleChangeInn(formatString(value, 'currency'), 'innDeposit');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeMaxRoommate = useCallback(
     value => {
-      hanleChangeInn(value, 'innMaxRoommate');
+      handleChangeInn(value, 'innMaxRoommate');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeOwner = useCallback(
     value => {
-      hanleChangeInn(value, 'innOwner');
+      handleChangeInn(value, 'innOwner');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeContact = useCallback(
     value => {
-      hanleChangeInn(formatString(value, 'phoneNumber'), 'innContact');
+      handleChangeInn(formatString(value, 'phoneNumber'), 'innContact');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeWifi = useCallback(
     value => {
-      hanleChangeInn(value, 'innWifi');
+      handleChangeInn(value, 'innWifi');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeGarage = useCallback(
     value => {
-      hanleChangeInn(value, 'innGarage');
+      handleChangeInn(value, 'innGarage');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomBed = useCallback(
     value => {
-      hanleChangeInn(value, 'roomBed');
+      handleChangeInn(value, 'roomBed');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomCloset = useCallback(
     value => {
-      hanleChangeInn(value, 'roomCloset');
+      handleChangeInn(value, 'roomCloset');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomKetchen = useCallback(
     value => {
-      hanleChangeInn(value, 'roomKetchen');
+      handleChangeInn(value, 'roomKetchen');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomPetsAllowed = useCallback(
     value => {
-      hanleChangeInn(value, 'roomPetsAllowed');
+      handleChangeInn(value, 'roomPetsAllowed');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomRefrigerator = useCallback(
     value => {
-      hanleChangeInn(value, 'roomRefrigerator');
+      handleChangeInn(value, 'roomRefrigerator');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomAirConditioner = useCallback(
     value => {
-      hanleChangeInn(value, 'roomAirConditioner');
+      handleChangeInn(value, 'roomAirConditioner');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeType = useCallback(
     value => {
-      hanleChangeInn(value, 'type');
+      handleChangeInn(value, 'type');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomTivi = useCallback(
     value => {
-      hanleChangeInn(value, 'roomTivi');
+      handleChangeInn(value, 'roomTivi');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeRoomWashingMachine = useCallback(
     value => {
-      hanleChangeInn(value, 'roomWashingMachine');
+      handleChangeInn(value, 'roomWashingMachine');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeAttention = useCallback(
     value => {
-      hanleChangeInn(value, 'innAttention');
+      handleChangeInn(value, 'innAttention');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeNotes = useCallback(
     value => {
-      hanleChangeInn(value, 'innNotes');
+      handleChangeInn(value, 'innNotes');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const onChangeCoordinate = useCallback(
     value => {
-      hanleChangeInn(value, 'coordinate');
+      handleChangeInn(value, 'coordinate');
     },
-    [hanleChangeInn],
+    [handleChangeInn],
   );
 
   const handleCreateInn = async () => {
@@ -517,7 +517,7 @@ export const useCreateInn = ({data = {}, navigation}) => {
       onCloseDeleteConfirmModal,
       onConfirmDelete,
       handleCreateInn,
-      hanleChangeInn,
+      handleChangeInn,
       onChangeName,
       onChangeAddress,
       onChangeImages,

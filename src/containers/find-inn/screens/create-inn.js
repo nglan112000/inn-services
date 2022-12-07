@@ -18,6 +18,7 @@ import {useCreateInn} from '../hooks/useCreateInn';
 import {styles} from './create-inn.style';
 import {DeleteConfirm} from '../../../components/delete-confirm/delete-confirm';
 import {typeInns} from '../../../constants/constants';
+import { globalStyles } from '../../../global.style';
 
 const CustomInput = props => {
   return (
@@ -92,7 +93,7 @@ const CreateInn = ({route, navigation}) => {
         title={translate.post.innName}
         value={inn.innName}
         onChangeText={onChangeName}
-        placeholder="Nhà trọ Như Ý"
+        placeholder="Tên nhà trọ"
         {...validation.name}
       />
       <BasePicker
@@ -276,7 +277,7 @@ const CreateInn = ({route, navigation}) => {
           loading={loading}
           title={translate.save}
           containerStyle={styles.buttonContainer}
-          type="outline"
+          buttonStyle={globalStyles.green}
           disabled={deleteLoading}
           onPress={onCreateInn}
         />

@@ -134,7 +134,7 @@ const FindInnDetail = ({route, navigation}) => {
                 </Text>
               </View>
               <View>
-                <Text style={globalStyles.tcenter}>TIỀN CỘC</Text>
+                <Text style={globalStyles.tcenter}>TIỀN CỌC</Text>
                 <Text style={[styles.price, globalStyles.tcenter]}>
                   {numeralPrice(inn.deposit)} đ
                 </Text>

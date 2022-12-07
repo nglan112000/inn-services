@@ -32,6 +32,7 @@ import {
   ItemFilterContainer,
 } from '../../../components/filter/filter';
 import {getTypeInn} from '../../../constants/constants';
+import Test from '../../test';
 
 const FindInn = ({navigation}) => {
   const {handlers, selectors} = useInn({navigation});

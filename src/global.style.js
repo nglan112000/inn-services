@@ -14,6 +14,9 @@ export const globalStyles = StyleSheet.create({
   primary: {
     backgroundColor: lightTheme.primary,
   },
+  green: {
+    backgroundColor: lightTheme.green,
+  },
   gray: {
     backgroundColor: lightTheme.grayC4,
   },

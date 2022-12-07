@@ -82,7 +82,7 @@ const translate = {
     furniture: 'Tiện ích',
     attention: 'Chú ý',
     notes: 'Mô tả chi tiết',
-    addressPlaceholder: '25 Hai Bà Trưng, Quận 3, TP.HCM',
+    addressPlaceholder: '1 Ngô Sĩ Liên, P.Hoà Khánh Bắc,Q.Liên Chiểu, TP.Đà Nẵng',
     airConditioner: 'Điều hòa',
     roomBed: 'Giường ngủ',
     roomCloset: 'Tủ áo quần',
@@ -140,7 +140,7 @@ const translate = {
     requirePhoneNumber: 'Số điện thoại không được để trống',
   },
   placeholder: {
-    phone: '0949 725 725',
+    phone: '0966 759 343',
     price: '1,000,000',
     area: 25,
     maxRoommate: 4,

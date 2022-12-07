@@ -9,6 +9,7 @@ const lightTheme = {
   disabled: '#C4C4C4',
   grayC4: '#C4C4C4',
   iconColor: '#c4c4c4',
+  green: '#00CC66'
 };
 
 export {lightTheme};

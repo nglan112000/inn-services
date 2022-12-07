@@ -121,7 +121,7 @@ export const ModalUpdateProfile = ({
               onPress={onSave}
               loading={loading}
               title="Lưu"
-              buttonStyle={[styles.buttonAcceptTerm, globalStyles.primary]}>
+              buttonStyle={[styles.buttonAcceptTerm, globalStyles.green]}>
               <Text style={styles.textSave}>Lưu</Text>
             </Button>
 

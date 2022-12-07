@@ -66,7 +66,7 @@ export const sendMail = async (subject, body) => {
   } catch (error) {
     console.log(error);
     showMessageInfo(
-      'Không thể mở ứng dụng Mail! Vui lòng liên hệ về địa chỉ email sau:\n17520784@gm.uit.edu.vn',
+      'Không thể mở ứng dụng Mail! Vui lòng liên hệ về địa chỉ email sau:\nnglan112000@gmail.com',
     );
   }
 };

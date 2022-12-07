@@ -226,7 +226,7 @@ const AdditionalInfo = ({navigation}) => {
           setValue={value => onUpdateUserInfo(value, 'job')}
           required={true}
         />
-        <View style={styles.scrollViewLastItem}>
+        <View style={[styles.scrollViewLastItem,globalStyles.green]}>
           <Button title="Lưu thông tin" onPress={onSave} />
         </View>
       </ScrollView>

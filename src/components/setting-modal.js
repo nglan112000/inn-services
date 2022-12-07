@@ -85,7 +85,7 @@ export const SettingModal = ({visible, onClose}) => {
           </ScrollView>
           <View style={globalStyles.row}>
             <TouchableOpacity
-              style={[styles.buttonAcceptTerm, globalStyles.primary]}
+              style={[styles.buttonAcceptTerm, globalStyles.green]}
               onPress={saveSetting}>
               <Text style={styles.textSave}>Lưu</Text>
             </TouchableOpacity>

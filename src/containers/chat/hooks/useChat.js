@@ -7,7 +7,6 @@ import {selectMessage} from '../selectors';
 
 const useChat = ({navigation}) => {
   const message = useSelector(selectMessage);
-  console.log({message})
   const uid = useSelector(selectUid);
 
   const goToChatDetail = useCallback(
