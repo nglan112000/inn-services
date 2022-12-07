@@ -59,6 +59,6 @@ buck-out/
 /ios/Pods/
 android/java_pid*.hprof
 
-serviceAccountKey.json
-secretkey.js
+#serviceAccountKey.json
+#secretkey.js
 android/app/src/main/res/values/strings.xml
