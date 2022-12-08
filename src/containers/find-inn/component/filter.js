@@ -1,5 +1,5 @@
-import React, {useState, useEffect, useCallback, useRef} from 'react';
-import {View, Text, StyleSheet, KeyboardAvoidingView} from 'react-native';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { View, Text, StyleSheet, KeyboardAvoidingView } from 'react-native';
 import Slider from '@ptomasroos/react-native-multi-slider';
 import * as Animatable from 'react-native-animatable';
 
@@ -10,11 +10,12 @@ import {
   CityPicker,
   DistrictPicker,
 } from '../../../components';
-import {getCity, numeralPrice} from '../../../utils/utils';
-import {translate} from '../../../constants/translate';
-import {fadeDownIn, fadeDownOut} from '../../../assets/animation';
+import { getCity, numeralPrice } from '../../../utils/utils';
+import { translate } from '../../../constants/translate';
+import { fadeDownIn, fadeDownOut } from '../../../assets/animation';
 import styles from './filter.style';
-import {typeInnsWithAll} from '../../../constants/constants';
+import { typeInnsWithAll } from '../../../constants/constants';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const MIN_AREA = 10;
 const MAX_AREA = 200;
@@ -41,6 +42,11 @@ const Filter = ({
   const [area, setArea] = useState([10, 200]);
   const [garage, setGarage] = useState(false);
   const [kitchen, setKitchen] = useState(false);
+  const [airConditioner, setAirConditioner] = useState(false);
+  const [roomPetsAllowed, setRoomPetsAllowed] = useState(false);
+  const [roomRefrigerator, setRoomRefrigerator] = useState(false);
+  const [roomWashingMachine, setRoomWashingMachine] = useState(false);
+  const [roomWifi, setRoomWifi] = useState(false);
   const [maxRadius, setMaxRadius] = useState([5000]);
 
   const onSetDistrict = useCallback(
@@ -74,6 +80,26 @@ const Filter = ({
 
   const onChangeKitchen = useCallback(value => {
     setKitchen(value);
+  }, []);
+
+  const onChangeAirConditioner = useCallback(value => {
+    setAirConditioner(value);
+  }, []);
+
+  const onChangeRoomPetsAllowed = useCallback(value => {
+    setRoomPetsAllowed(value);
+  }, []);
+
+  const onChangeRoomWifi = useCallback(value => {
+    setRoomWifi(value);
+  }, []);
+
+  const onChangeRoomRefrigerator = useCallback(value => {
+    setRoomRefrigerator(value);
+  }, []);
+
+  const onChangeRoomWashingMachine = useCallback(value => {
+    setRoomWashingMachine(value);
   }, []);
 
   const onChangeGarage = useCallback(value => {
@@ -112,9 +138,14 @@ const Filter = ({
       area: selectArea,
       kitchen,
       garage,
+      airConditioner,
+      roomPetsAllowed,
+      roomRefrigerator,
+      roomWashingMachine,
+      roomWifi,
       maxRadius: maxRadius[0],
     });
-  }, [callBack, city, type, district, price, area, kitchen, garage, maxRadius]);
+  }, [callBack, city, type, district, price, area, kitchen, garage, maxRadius, airConditioner, roomPetsAllowed, roomRefrigerator, roomWashingMachine, roomWifi]);
 
   useEffect(() => {
     if (isShow && !isActive) {
@@ -140,99 +171,135 @@ const Filter = ({
       animation={fadeDownIn}
       duration={350}
       style={StyleSheet.flatten([styles.container, styleContainer])}>
-      <KeyboardAvoidingView>
-        <CityPicker
-          value={city}
-          setValue={onSetCity}
-          containerStyle={[styles.picker, styles.marginBottom]}
-        />
-        <DistrictPicker
-          value={district}
-          setValue={onSetDistrict}
-          containerStyle={[styles.picker, styles.marginBottom]}
-          cityId={city}
-        />
-        <BasePicker
-          containerStyle={[styles.picker]}
-          title="Loại trọ"
-          items={typeInnsWithAll}
-          value={type}
-          setValue={onChangeType}
-        />
-      </KeyboardAvoidingView>
-      {showPricePicker && (
-        <View style={styles.marginBottom}>
-          <Text>
-            Giá từ{' '}
-            <Text style={styles.priceStyle}>
-              {numeralPrice(price.minPrice)}
-            </Text>{' '}
-            đến{' '}
-            <Text style={styles.priceStyle}>
-              {numeralPrice(price.maxPrice)}
+      <ScrollView style={{ height: 400 }}>
+        <KeyboardAvoidingView>
+          <CityPicker
+            value={city}
+            setValue={onSetCity}
+            containerStyle={[styles.picker, styles.marginBottom]}
+          />
+          <DistrictPicker
+            value={district}
+            setValue={onSetDistrict}
+            containerStyle={[styles.picker, styles.marginBottom]}
+            cityId={city}
+          />
+          <BasePicker
+            containerStyle={[styles.picker]}
+            title="Loại trọ"
+            items={typeInnsWithAll}
+            value={type}
+            setValue={onChangeType}
+          />
+        </KeyboardAvoidingView>
+        {showPricePicker && (
+          <View style={styles.marginBottom}>
+            <Text>
+              Giá từ{' '}
+              <Text style={styles.priceStyle}>
+                {numeralPrice(price.minPrice)}
+              </Text>{' '}
+              đến{' '}
+              <Text style={styles.priceStyle}>
+                {numeralPrice(price.maxPrice)}
+              </Text>
             </Text>
-          </Text>
-          <Slider
-            min={0}
-            max={10000000}
-            allowOverlap={false}
-            values={[price.minPrice, price.maxPrice]}
-            onValuesChange={onChangePrice}
-            containerStyle={styles.sliderContainer}
-            step={500000}
-            sliderLength={190}
-          />
-        </View>
-      )}
-
-      <View style={styles.marginBottom}>
-        <Text>
-          Diện tích từ <Text style={styles.priceStyle}>{area[0]}</Text> đến{' '}
-          <Text style={styles.priceStyle}>{area[1]}</Text> m2
-        </Text>
-        <Slider
-          min={MIN_AREA}
-          max={MAX_AREA}
-          allowOverlap={false}
-          values={[area[0], area[1]]}
-          onValuesChange={onChangeArea}
-          containerStyle={styles.sliderContainer}
-          step={10}
-          sliderLength={190}
-        />
-      </View>
-      <View style={styles.marginBottom}>
-        <CheckBox
-          text={translate.post.innGarage}
-          onChange={onChangeGarage}
-          checked={garage}
-        />
-      </View>
-      <View style={styles.marginBottom}>
-        <CheckBox
-          text={translate.post.roomKetchen}
-          onChange={onChangeKitchen}
-          checked={kitchen}
-        />
-      </View>
-      {typeOfItem === 'map' && (
+            <Slider
+              min={0}
+              max={10000000}
+              allowOverlap={false}
+              values={[price.minPrice, price.maxPrice]}
+              onValuesChange={onChangePrice}
+              containerStyle={styles.sliderContainer}
+              step={500000}
+              sliderLength={190}
+            />
+          </View>
+        )}
         <View style={styles.marginBottom}>
           <Text>
-            Phạm vi tìm kiếm:{' '}
-            <Text style={styles.priceStyle}>{maxRadius / 1000}</Text> Km
+            Diện tích từ <Text style={styles.priceStyle}>{area[0]}</Text> đến{' '}
+            <Text style={styles.priceStyle}>{area[1]}</Text> m2
           </Text>
           <Slider
-            min={MIN_RADIUS}
-            max={MAX_RADIUS}
+            min={MIN_AREA}
+            max={MAX_AREA}
             allowOverlap={false}
-            values={maxRadius}
-            onValuesChange={onChangeMaxRadius}
+            values={[area[0], area[1]]}
+            onValuesChange={onChangeArea}
             containerStyle={styles.sliderContainer}
-            step={1000}
+            step={10}
             sliderLength={190}
           />
         </View>
-      )}
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.innGarage}
+            onChange={onChangeGarage}
+            checked={garage}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.roomKetchen}
+            onChange={onChangeKitchen}
+            checked={kitchen}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.airConditioner}
+            onChange={onChangeAirConditioner}
+            checked={airConditioner}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.innWifi}
+            onChange={onChangeRoomWifi}
+            checked={roomWifi}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.roomWashingMachine}
+            onChange={onChangeRoomWashingMachine}
+            checked={roomWashingMachine}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.roomRefrigerator}
+            onChange={onChangeRoomRefrigerator}
+            checked={roomRefrigerator}
+          />
+        </View>
+        <View style={styles.marginBottom}>
+          <CheckBox
+            text={translate.post.roomPetsAllowed}
+            onChange={onChangeRoomPetsAllowed}
+            checked={roomPetsAllowed}
+          />
+        </View>
+        {typeOfItem === 'map' && (
+          <View style={styles.marginBottom}>
+            <Text>
+              Phạm vi tìm kiếm:{' '}
+              <Text style={styles.priceStyle}>{maxRadius / 1000}</Text> Km
+            </Text>
+            <Slider
+              min={MIN_RADIUS}
+              max={MAX_RADIUS}
+              allowOverlap={false}
+              values={maxRadius}
+              onValuesChange={onChangeMaxRadius}
+              containerStyle={styles.sliderContainer}
+              step={1000}
+              sliderLength={190}
+            />
+          </View>
+        )}
+      </ScrollView>
 
       <Button
         title={translate.apply}

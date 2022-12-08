@@ -33,6 +33,7 @@ import {
 } from '../../../components/filter/filter';
 import {getTypeInn} from '../../../constants/constants';
 import Test from '../../test';
+import { AirConditionerIcon } from '../../../components/icon';
 
 const FindInn = ({navigation}) => {
   const {handlers, selectors} = useInn({navigation});
@@ -65,7 +66,7 @@ const FindInn = ({navigation}) => {
       return null;
     }
     const filterItems = [];
-    const {price, district, city, area, kitchen, garage, type} = filter;
+    const {price, district, city, area, kitchen, garage, type, airConditioner, roomPetsAllowed, roomWifi, roomRefrigerator, roomWashingMachine} = filter;
     if (city?.Name) {
       filterItems.push(shortenCityName(city.Name));
     }
@@ -101,6 +102,21 @@ const FindInn = ({navigation}) => {
     }
     if (garage) {
       filterItems.push('Có chỗ gửi xe');
+    }
+    if (airConditioner) {
+      filterItems.push('Có điều hoà')
+    }
+    if (roomPetsAllowed) {
+      filterItems.push('Cho nuôi thú cưng')
+    }
+    if (roomRefrigerator) {
+      filterItems.push('Có tủ lạnh')
+    }
+    if (roomWashingMachine) {
+      filterItems.push('Có máy giặt')
+    }
+    if (roomWifi) {
+      filterItems.push('Có wifi')
     }
     return filterItems.map((value, index) => (
       <ItemFilter value={value} key={index} />

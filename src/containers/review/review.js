@@ -3,6 +3,7 @@ import {View, TouchableOpacity} from 'react-native';
 import {Rating, AirbnbRating} from 'react-native-ratings';
 import {Button, Image, Text} from '../../components';
 import TextInput from '../../components/text-input/text-input';
+import { globalStyles } from '../../global.style';
 import {styles} from './review.style';
 import {useReviewHook} from './useReviewHook';
 
@@ -108,6 +109,7 @@ export const Review = ({reviewId, containerStyle}) => {
         <Button
           title="Đăng"
           containerStyle={styles.mt}
+          buttonStyle={globalStyles.green}
           loading={postReviewLoading}
           onPress={onPostReview}
         />

@@ -54,6 +54,11 @@ export function fetchDataFromAlgolia({
   minArea,
   maxArea,
   garage,
+  airConditioner,
+  roomWifi,
+  roomPetsAllowed,
+  roomWashingMachine,
+  roomRefrigerator,
   kitchen,
   count = 0,
   typeOfItem,
@@ -89,6 +94,21 @@ export function fetchDataFromAlgolia({
   }
   if (garage) {
     filters.push(`parking_situation:${garage}`);
+  }
+  if (airConditioner) {
+    filters.push(`air_conditioner:${airConditioner}`);
+  }
+  if (roomPetsAllowed) {
+    filters.push(`room_pets_allowed:${roomPetsAllowed}`);
+  }
+  if (roomWifi) {
+    filters.push(`room_wifi:${roomWifi}`);
+  }
+  if (roomRefrigerator) {
+    filters.push(`room_refrigerator:${roomRefrigerator}`);
+  }
+  if (roomWashingMachine) {
+    filters.push(`room_washing_machine:${roomWashingMachine}`);
   }
   if (city) {
     facetFilter.push(`full_address_object.city.code:${city}`);

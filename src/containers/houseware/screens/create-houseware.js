@@ -13,6 +13,7 @@ import {
 import {activeOpacity} from '../../../components/shared';
 import {housewareStatus} from '../../../constants/constants';
 import {translate} from '../../../constants/translate';
+import { globalStyles } from '../../../global.style';
 import {HousewareItem} from '../components/houseware-item';
 import {useCreateHouseware} from '../hooks/useCreateHouseware';
 import {styles} from './create-houseware.style';
@@ -107,7 +108,7 @@ export const CreateHouseware = ({navigation, route}) => {
           onPress={onCreateHouseware}
           loading={loading}
           containerStyle={styles.marginBottom}
-          type="outline"
+          buttonStyle={globalStyles.green}
         />
       </View>
     </ScrollView>
