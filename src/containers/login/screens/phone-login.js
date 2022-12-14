@@ -66,7 +66,7 @@ const PhoneLogin = ({navigation}) => {
         returnKeyType="next"
         autoFocus={true}
         onSubmitEditing={() => handleSignIn()}
-        placeholder="0369 369 369"
+        placeholder="0966 759 343"
       />
       <Button
         title={translate.continue}
